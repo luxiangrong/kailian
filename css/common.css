@@ -1,0 +1,67 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 1200px;
+}
+.pull-right {
+  float: right;
+}
+.navbar {
+  background-color: #f3f3f3;
+  color: #909090;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+}
+.navbar .navbar-fixed-top {
+  position: fixed;
+  top: 0;
+}
+.icon-32 {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: url(../images/sprite.png) no-repeat;
+}
+.icon-32.icon-hi {
+  width: 28px;
+  background-position: 0px 0px;
+}
+.icon-32.icon-fav {
+  width: 24px;
+  background-position: -32px 0px;
+}
+.icon-32.icon-tel {
+  width: 28px;
+  background-position: -64px 0px;
+}
+header .welcome {
+  margin-right: 20px;
+}
+header .split {
+  margin: 0 10px;
+}
+header .login-reg {
+  color: #5e5e5e;
+}
+header .login-reg a {
+  color: #5e5e5e;
+  vertical-align: middle;
+  text-decoration: none;
+}
+header .nav-r {
+  color: #909090;
+}
+header .nav-r a {
+  color: #909090;
+  vertical-align: middle;
+  text-decoration: none;
+}
+header .nav-r a.tel {
+  font-weight: bold;
+}

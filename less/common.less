@@ -1,0 +1,76 @@
+@import "variables.less";
+@import "mixins.less";
+
+//全网公共样式
+body {
+  font-family: @font-family-base;
+}
+
+.container {
+  .container-fixed(0px);
+  width: 1200px; 
+}
+
+.pull-right {
+  float: right;
+}
+
+.navbar {
+  background-color: #f3f3f3;
+  color: #909090;
+  height: 32px;
+  line-height: 32px;
+  font-size: @font-size-small;
+  .navbar-fixed-top {
+    position: fixed;
+    top: 0;
+  }
+}
+
+.icon-32 {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background: url(../images/sprite.png) no-repeat;
+  &.icon-hi {
+    width: 28px;
+    background-position: 0px 0px;
+  }
+  &.icon-fav {
+    width: 24px;
+    background-position: -32px 0px;
+  }
+  &.icon-tel {
+    width: 28px;
+    background-position: -64px 0px;
+  }
+}
+
+// header 区域样式
+header {
+  .welcome {
+    margin-right: 20px;
+  }
+  .split {
+    margin: 0 10px;
+  }
+  .login-reg {
+    color: #5e5e5e;
+    a {
+      color: #5e5e5e;
+      vertical-align: middle;
+      text-decoration: none;
+    }
+  }
+  .nav-r {
+    color: #909090;
+    a {
+      color: #909090;
+      vertical-align: middle;
+      text-decoration: none;
+      &.tel {
+        font-weight: bold;
+      }
+    }
+  }
+}
