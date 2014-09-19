@@ -1,0 +1,35 @@
+.main {
+  height: 4000px;
+  position: relative;
+  background: url(../images/main_bg_36x36.jpg) repeat left top;
+  .bg {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    background: url(../images/bg_01_1920x1000.png) no-repeat center top;
+    &.bg-01 {
+      top: 0;
+      background-image: url(../images/bg_01_1920x1000.png);
+    }
+    &.bg-02 {
+      top: 1000px;
+      background-image: url(../images/bg_02_1920x1000.png);
+    }
+    &.bg-03{
+      top: 2000px;
+      background-image: url(../images/bg_03_1920x1000.png);
+    }
+  }
+  .bg-banner {
+    background: url(../images/banner_bg_01_1920x718.jpg) no-repeat center top;
+    height: 500px;
+    position: absolute;
+    width: 100%;
+  }
+  .banner {
+    position: relative;
+    img {
+      margin-top: -133px;
+    }
+  }
+}

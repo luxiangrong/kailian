@@ -2,6 +2,7 @@
 @import "mixins.less";
 
 //全网公共样式
+
 body {
   font-family: @font-family-base;
   font-smoothing: antialiased;
@@ -23,12 +24,19 @@ ul,ol,li {
   .make-row(0);
 }
 
+.pull-left {
+  float: left;
+}
 .pull-right {
   float: right;
 }
 
 .clearfix {
   .clearfix();
+}
+
+.col-4 {
+  .make-xs-column(4, 0);
 }
 
 .navbar {
@@ -48,6 +56,7 @@ ul,ol,li {
   height: 32px;
   display: inline-block;
   background: url(../images/sprite.png) no-repeat;
+  vertical-align: middle;
   &.icon-hi {
     width: 28px;
     background-position: 0px 0px;
@@ -63,6 +72,19 @@ ul,ol,li {
   &.icon-cart {
     background-position: -96px 0px;
   }
+  &.icon-down {
+    width: 24px;
+    background-position: -128px 0px;
+  }
+  &.icon-umbrella {
+    background-position: -160px 0px;
+  }
+  &.icon-user {
+    background-position: -192px 0px;
+  }
+  &.icon-pay {
+    background-position: -224px 0px;
+  }
 }
 
 .icon-16 {
@@ -77,6 +99,7 @@ ul,ol,li {
 
 // header 区域样式
 header {
+  border-bottom: 4px solid #000;
   .welcome {
     margin-right: 20px;
     float: left;
@@ -161,7 +184,6 @@ header {
         line-height: 24px;
         width: 408px;
         width: 396px;
-        *margin-top: -1px;
         border: 0;
         outline: 0;
         color: #989898;
@@ -196,5 +218,159 @@ header {
   }
   .col-right {
     .make-xs-column(4, 0);
+    padding-top: 35px;
+    .map-search {
+      margin-left: 20px;
+      vertical-align: middle;
+      color: #6888e3;
+      font-size: @font-size-small;
+    }
+    .cart-wrap {
+      margin-top: -10px;
+      border: 1px solid #d9d9d9;
+      width: 193px;
+      height: 34px;
+      line-height: 34px;
+      .icon-cart {
+        vertical-align: middle;
+        margin: 0 5px;
+      }
+      p {
+        cursor: pointer;
+        display: inline-block;
+        margin: 0;
+        height: 100%;
+        width: 145px;
+        font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+        font-size: @font-size-base;
+        color: #777;
+        text-align: center;
+        background-color: #f9f9f9;
+        border-left: 1px solid #d9d9d9;
+      }
+      p{
+        *display:inline;
+      }
+    }
+  }
+}
+
+
+/**
+ *   footer 区域的样式
+ */
+footer {
+  background-color: #e0e0e0;
+  .footer-top {
+    background-color: #000;
+    padding: 10px 0;
+    .col{
+      .make-xs-column(3.333, 0);
+      &.col-offset {
+        .make-xs-column-offset(1);
+      }
+      .bg-wrap {
+        margin: 5px;
+        background-color: #fff;
+        height: 100px;
+        &.qr {
+          img {
+            float: left;
+            margin: 10px 30px;
+          }
+          p {
+            font-size: @font-size-small;
+            color: #303030;
+            margin: 0;
+            padding: 30px 30px 0px 0;
+            line-height: @line-height-base;
+          }
+        }
+        &.weibo {
+          line-height: 100px;
+          img {
+            float: left;
+            margin: 30px;
+          }
+          .btn {
+            .button-variant(#303030, #f9f9f9, #c6c6c6);
+            .button-size(10px,30px, 12px, 12px, 0px);
+            border: 1px solid #c6c6c6;
+            text-decoration: none;
+          }
+        }
+        &.app {
+          span {
+            float: left;
+            margin: 40px 0;
+            margin-left: 10%;
+            width: 35%;
+          }
+          .btn-group {
+            float: left;
+            width: 45%;
+            height: 100%;
+            .btn {
+              cursor: pointer;
+              margin-top: 10px;
+              .button-variant(#303030, #f9f9f9, #c6c6c6);
+              .button-size(5px,30px, 16px, 16px, 0px);
+              border: 1px solid #c6c6c6;
+              text-decoration: none;
+              display: block;
+              text-align: center;
+              &.btn-ios {
+                border-color: #26aff6;
+              }
+              &.btn-android {
+                border-color: #fd8816;
+              }
+              img {
+                vertical-align:middle;
+                height: 25px;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    padding-bottom: 30px;
+    .col {
+      .make-xs-column(3.333, 0);
+      border-left: 1px dashed #fff;
+      border-right: 1px dashed #959595;
+      margin-top: 30px;
+      &.first {
+        border-left: 0px dashed #fff;
+      }
+      &.last {
+        border-right: 0px dashed #fff;
+      }
+      &.col-offset {
+        .make-xs-column-offset(1);
+      }
+      h5 {
+        font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+        font-weight: bold;
+        margin: 0 0 10px 100px;
+        i {
+          margin-right: 10px;
+        }
+      }
+      ul {
+        margin-left: 140px;
+        li {
+          margin-bottom: 15px;
+          a {
+            font-size: @font-size-small;
+            color: #727272;
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }
