@@ -1,5 +1,13 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, SimSun, "宋体", "Microsoft YaHei", "微软雅黑", sans-serif;
+  font-smoothing: antialiased;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .container {
   margin-right: auto;
@@ -8,8 +16,42 @@ body {
   padding-right: 0px;
   width: 1200px;
 }
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .pull-right {
   float: right;
+}
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.row:after {
+  clear: both;
 }
 .navbar {
   background-color: #f3f3f3;
@@ -40,13 +82,27 @@ body {
   width: 28px;
   background-position: -64px 0px;
 }
+.icon-32.icon-cart {
+  background-position: -96px 0px;
+}
+.icon-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/sprite.png) no-repeat;
+}
+.icon-16.icon-split {
+  background-position: 0px -100px;
+}
 header .welcome {
   margin-right: 20px;
+  float: left;
 }
 header .split {
   margin: 0 10px;
 }
 header .login-reg {
+  float: left;
   color: #5e5e5e;
 }
 header .login-reg a {
@@ -64,4 +120,123 @@ header .nav-r a {
 }
 header .nav-r a.tel {
   font-weight: bold;
+}
+header .head-wrap {
+  padding: 25px 0;
+}
+header .col-logo {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+header .col-search {
+  position: relative;
+  float: left;
+  width: 41.66666667%;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+header .col-search .search-tab ul:before,
+header .col-search .search-tab ul:after {
+  content: " ";
+  display: table;
+}
+header .col-search .search-tab ul:after {
+  clear: both;
+}
+header .col-search .search-tab ul:before,
+header .col-search .search-tab ul:after {
+  content: " ";
+  display: table;
+}
+header .col-search .search-tab ul:after {
+  clear: both;
+}
+header .col-search .search-tab ul li {
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 15px;
+  font-size: 12px;
+  color: #666666;
+  cursor: pointer;
+}
+header .col-search .search-tab ul li.active,
+header .col-search .search-tab ul li.active:hover {
+  color: #fff;
+  background-color: #000;
+}
+header .col-search .search-tab ul li:hover {
+  background-color: #ddd;
+}
+header .col-search .search-box {
+  clear: both;
+  position: relative;
+  padding: 2px 0 2px 2px;
+  height: 36px;
+  background: #000;
+}
+header .col-search .search-box .search-button {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  height: 36px;
+  width: 90px;
+}
+header .col-search .search-box .search-button .btn-search {
+  cursor: pointer;
+  height: 100%;
+  border: none;
+  width: 100%;
+  background: url(../images/sprite.png) no-repeat 0 -64px;
+}
+header .col-search .search-box input.search-input-text {
+  padding: 6px 0;
+  padding-left: 10px;
+  height: 24px;
+  line-height: 24px;
+  width: 408px;
+  width: 396px;
+  *margin-top: -1px;
+  border: 0;
+  outline: 0;
+  color: #989898;
+  background: #fff;
+  overflow-y: visible;
+  vertical-align: middle;
+}
+header .col-search .search-hotword {
+  font-size: 12px;
+  margin-top: 8px;
+}
+header .col-search .search-hotword a {
+  color: #989898;
+  text-decoration: none;
+}
+header .col-search .search-hotword a.active,
+header .col-search .search-hotword a:hover {
+  color: #d70000;
+}
+header .col-search .search-hotword a.more {
+  background: url(../images/sprite.png) no-repeat 25px -117px;
+  padding-right: 16px;
+}
+header .col-search .search-hotword a.more:hover {
+  background-position: 25px -133px;
+}
+header .col-search .search-hotword .icon-split,
+header .col-search .search-hotword .icon-more {
+  vertical-align: middle;
+}
+header .col-right {
+  position: relative;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
 }

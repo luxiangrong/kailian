@@ -4,15 +4,31 @@
 //全网公共样式
 body {
   font-family: @font-family-base;
+  font-smoothing: antialiased;
+}
+
+ul,ol,li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
   .container-fixed(0px);
   width: 1200px; 
+  .clearfix();
+}
+
+.row {
+  .make-row(0);
 }
 
 .pull-right {
   float: right;
+}
+
+.clearfix {
+  .clearfix();
 }
 
 .navbar {
@@ -44,17 +60,32 @@ body {
     width: 28px;
     background-position: -64px 0px;
   }
+  &.icon-cart {
+    background-position: -96px 0px;
+  }
+}
+
+.icon-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../images/sprite.png) no-repeat;
+  &.icon-split {
+    background-position: 0px -100px;
+  }
 }
 
 // header 区域样式
 header {
   .welcome {
     margin-right: 20px;
+    float: left;
   }
   .split {
     margin: 0 10px;
   }
   .login-reg {
+    float: left;
     color: #5e5e5e;
     a {
       color: #5e5e5e;
@@ -72,5 +103,98 @@ header {
         font-weight: bold;
       }
     }
+  }
+  .head-wrap {
+    padding: 25px 0;
+  }
+  .col-logo {
+    .make-xs-column(3, 0);
+  }
+  .col-search {
+    .make-xs-column(5, 0);
+    .search-tab {
+      ul {
+        .clearfix();
+        li {
+          float: left;
+          height: 25px;
+          line-height: 25px;
+          padding: 0 15px;
+          font-size: @font-size-small;
+          color: #666666;
+          cursor: pointer;
+          &.active,
+          &.active:hover {
+            color: #fff;
+            background-color: #000;
+          }
+          &:hover {
+            background-color: #ddd;
+          }
+        }
+      }
+    }
+    .search-box {
+      clear: both;
+      position: relative;
+      padding: 2px 0 2px 2px;
+      height: 36px;
+      background: #000;
+      .search-button {
+        position: absolute;
+        right: 0px;
+        top: 2px;
+        height: 36px;
+        width: 90px;
+        .btn-search {
+          cursor: pointer;
+          height: 100%;
+          border: none;
+          width: 100%;
+          background: url(../images/sprite.png) no-repeat 0 -64px;
+        }
+      }
+      input.search-input-text {
+        padding: 6px 0;
+        padding-left: 10px;
+        height: 24px;
+        line-height: 24px;
+        width: 408px;
+        width: 396px;
+        *margin-top: -1px;
+        border: 0;
+        outline: 0;
+        color: #989898;
+        background: #fff;
+        overflow-y: visible;
+        vertical-align: middle;
+      }
+    }
+    .search-hotword {
+      font-size: @font-size-small;
+      margin-top: 8px;
+      a {
+        color: #989898;
+        text-decoration: none;
+        &.active,
+        &:hover {
+          color: #d70000;
+        }
+        &.more {
+          background: url(../images/sprite.png) no-repeat 25px -117px;
+          padding-right: 16px;
+          &:hover {
+            background-position: 25px -133px;
+          }
+        }
+      }
+      .icon-split,
+      .icon-more {
+        vertical-align: middle;
+      }
+    }
+  }
+  .col-right {
+    .make-xs-column(4, 0);
   }
 }
