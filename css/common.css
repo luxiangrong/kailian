@@ -1,6 +1,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, SimSun, "宋体", "Microsoft YaHei", "微软雅黑", sans-serif;
   font-smoothing: antialiased;
+  padding-top: 32px;
 }
 ul,
 ol,
@@ -35,6 +36,23 @@ li {
 .row {
   margin-left: 0;
   margin-right: 0;
+  *clear: both;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
 }
 .pull-left {
   float: left;
@@ -71,9 +89,39 @@ li {
   line-height: 32px;
   font-size: 12px;
 }
-.navbar .navbar-fixed-top {
+.navbar.navbar-fixed-top {
   position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.navbar .welcome {
+  margin-right: 20px;
+  float: left;
+}
+.navbar .split {
+  margin: 0 10px;
+}
+.navbar .login-reg {
+  float: left;
+  color: #5e5e5e;
+}
+.navbar .login-reg a {
+  color: #5e5e5e;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.navbar .nav-r {
+  color: #909090;
+}
+.navbar .nav-r a {
+  color: #909090;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.navbar .nav-r a.tel {
+  font-weight: bold;
 }
 .icon-32 {
   width: 32px;
@@ -119,38 +167,37 @@ li {
 .icon-16.icon-split {
   background-position: 0px -100px;
 }
+.icon-sale-tag {
+  width: 72px;
+  height: 85px;
+  display: inline-block;
+  background: url(../images/sprite.png) no-repeat;
+}
+.icon-sale-tag.icon-sale-tag-01 {
+  background-position: -1px -148px;
+}
+.icon-sale-tag.icon-sale-tag-02 {
+  background-position: -74px -148px;
+}
+.icon-sale-tag.icon-sale-tag-03 {
+  background-position: -147px -148px;
+}
+.icon-pencil {
+  width: 41px;
+  height: 41px;
+  display: inline-block;
+  background: url(../images/sprite.png) no-repeat;
+  background-position: 0px -236px;
+}
 header {
+  position: relative;
   border-bottom: 4px solid #000;
-}
-header .welcome {
-  margin-right: 20px;
-  float: left;
-}
-header .split {
-  margin: 0 10px;
-}
-header .login-reg {
-  float: left;
-  color: #5e5e5e;
-}
-header .login-reg a {
-  color: #5e5e5e;
-  vertical-align: middle;
-  text-decoration: none;
-}
-header .nav-r {
-  color: #909090;
-}
-header .nav-r a {
-  color: #909090;
-  vertical-align: middle;
-  text-decoration: none;
-}
-header .nav-r a.tel {
-  font-weight: bold;
+  z-index: 100;
 }
 header .head-wrap {
   padding: 25px 0;
+  z-index: 2;
+  position: relative;
 }
 header .col-logo {
   position: relative;
@@ -275,11 +322,11 @@ header .col-right .map-search {
   font-size: 12px;
 }
 header .col-right .cart-wrap {
-  margin-top: -10px;
+  margin-top: -15px;
   border: 1px solid #d9d9d9;
   width: 193px;
-  height: 34px;
-  line-height: 34px;
+  height: 40px;
+  line-height: 36px;
 }
 header .col-right .cart-wrap .icon-cart {
   vertical-align: middle;
@@ -300,6 +347,17 @@ header .col-right .cart-wrap p {
 }
 header .col-right .cart-wrap p {
   *display: inline;
+}
+header .banner {
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -500px;
+  bottom: -504px;
+  z-index: 1;
+}
+header .banner img {
+  display: block;
 }
 /**
  *   footer 区域的样式

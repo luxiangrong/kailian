@@ -1,7 +1,8 @@
 .main {
-  height: 4000px;
   position: relative;
   background: url(../images/main_bg_36x36.jpg) repeat left top;
+  z-index: 1;
+  overflow-y: hidden;
 }
 .main .bg {
   position: absolute;
@@ -21,15 +22,235 @@
   top: 2000px;
   background-image: url(../images/bg_03_1920x1000.png);
 }
+.main .bg.bg-04 {
+  top: 500px;
+  height: 100%;
+  background: url(../images/bg_04_1920x2710.png) repeat-y center top;
+}
 .main .bg-banner {
   background: url(../images/banner_bg_01_1920x718.jpg) no-repeat center top;
   height: 500px;
   position: absolute;
   width: 100%;
 }
-.main .banner {
+.main .banner-holder {
   position: relative;
+  text-align: center;
+  height: 500px;
 }
-.main .banner img {
-  margin-top: -133px;
+.main .products-wrap {
+  position: relative;
+  border-top: 4px solid #df0505;
+  background: url(../images/products_wrap_bg_1920x107.png) no-repeat center 24px;
+  *background-position: center 28px;
+  z-index: 101;
+  margin-bottom: 40px;
+}
+.main .products-wrap .container h3 {
+  margin: 0;
+  text-align: center;
+}
+.main .products-wrap .container .row {
+  margin: 0 -10px;
+}
+.main .products-wrap .container .col {
+  position: relative;
+  float: left;
+  width: 27.775%;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.main .products-wrap .container .col.col-offset {
+  margin-left: 8.33333333%;
+}
+.main .products-wrap .container .col .product {
+  position: relatvie;
+  background-color: #fff;
+  margin: 20px 10px 0;
+}
+.main .products-wrap .container .col .product .sale-tag {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.main .products-wrap .container .col .product .info {
+  padding: 0px 20px 10px;
+}
+.main .products-wrap .container .col .product .info p {
+  margin: 5px 0;
+}
+.main .products-wrap .container .col .product .info p .name {
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.main .products-wrap .container .col .product .info p strong.price {
+  font-size: 38px;
+  font-weight: bold;
+  color: #fe0000;
+  margin-left: 10px;
+}
+.main .products-wrap .container .col .product .info p small.unit,
+.main .products-wrap .container .col .product .info p small.description {
+  font-size: 12px;
+  color: #666;
+}
+.main .products-wrap .container .col .product .info p b.name-extr {
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.main .products-wrap .container .col .product .info .btn {
+  color: #ffffff;
+  background-color: #df0505;
+  border-color: #df0505;
+  padding: 10px 30px;
+  font-size: 18px;
+  line-height: 18px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+.main .products-wrap .container .col .product .info .btn:hover,
+.main .products-wrap .container .col .product .info .btn:focus,
+.main .products-wrap .container .col .product .info .btn:active,
+.main .products-wrap .container .col .product .info .btn.active,
+.open > .dropdown-toggle.main .products-wrap .container .col .product .info .btn {
+  color: #ffffff;
+  background-color: #ad0404;
+  border-color: #a30404;
+}
+.main .products-wrap .container .col .product .info .btn:active,
+.main .products-wrap .container .col .product .info .btn.active,
+.open > .dropdown-toggle.main .products-wrap .container .col .product .info .btn {
+  background-image: none;
+}
+.main .products-wrap .container .col .product .info .btn.disabled,
+.main .products-wrap .container .col .product .info .btn[disabled],
+fieldset[disabled] .main .products-wrap .container .col .product .info .btn,
+.main .products-wrap .container .col .product .info .btn.disabled:hover,
+.main .products-wrap .container .col .product .info .btn[disabled]:hover,
+fieldset[disabled] .main .products-wrap .container .col .product .info .btn:hover,
+.main .products-wrap .container .col .product .info .btn.disabled:focus,
+.main .products-wrap .container .col .product .info .btn[disabled]:focus,
+fieldset[disabled] .main .products-wrap .container .col .product .info .btn:focus,
+.main .products-wrap .container .col .product .info .btn.disabled:active,
+.main .products-wrap .container .col .product .info .btn[disabled]:active,
+fieldset[disabled] .main .products-wrap .container .col .product .info .btn:active,
+.main .products-wrap .container .col .product .info .btn.disabled.active,
+.main .products-wrap .container .col .product .info .btn[disabled].active,
+fieldset[disabled] .main .products-wrap .container .col .product .info .btn.active {
+  background-color: #df0505;
+  border-color: #df0505;
+}
+.main .products-wrap .container .col .product .info .btn .badge {
+  color: #df0505;
+  background-color: #ffffff;
+}
+.main .products-wrap .container .col .product .info .btn.btn-buy {
+  margin-top: 15px;
+}
+.other {
+  border-top: 4px solid #000;
+  background: url(../images/other_bg_36x36.jpg) left center;
+}
+.other .editor-words {
+  margin-top: 30px;
+}
+.other .editor-words .book {
+  position: relatvie;
+  background: url(../images/book_bg_747x612.png) no-repeat center top;
+  background-size: 100% 100%;
+  width: 672px;
+  margin: 0 auto;
+  z-index: 300;
+  position: relative;
+  padding: 10px 42px 30px;
+  width: 665px\9;
+  *width: 665px;
+}
+.other .editor-words .book .scroll {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  width: 100%;
+  background: url(../images/scroll_bg_747x7.png) no-repeat center top;
+  height: 7px;
+}
+.other .editor-words .book .paper {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px 50px 30px;
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: -5px;
+}
+.other .editor-words .book .paper p {
+  text-indent: 2em;
+}
+.other .editor-words .book .paper h1 {
+  color: #3381dd;
+  font-size: 20px;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+.other .editor-words .book .paper h1 strong {
+  display: inline-block;
+  padding: 0 10px;
+  padding-bottom: 10px;
+  background: url(../images/line_01_107x7.png) repeat-x left bottom;
+}
+.other .editor-words .book .paper-bottom {
+  width: 100%;
+  height: 3px;
+  margin-bottom: -3px;
+  background: url(../images/paper_bottom.png) repeat-x 0 center;
+}
+.other .recommend-lessons {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.other .recommend-lessons h3 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.other .recommend-lessons .container {
+  width: 860px;
+}
+.other .recommend-lessons .container .owl-controls {
+  position: absolute;
+  margin-top: -21px;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+}
+.other .recommend-lessons .container .owl-controls .owl-prev,
+.other .recommend-lessons .container .owl-controls .owl-next {
+  width: 27px;
+  height: 42px;
+  padding: 0px;
+  border-radius: 0px;
+  position: absolute;
+}
+.other .recommend-lessons .container .owl-controls .owl-prev {
+  left: -50px;
+  background: url(../images/sprite.png) no-repeat -72px -276px;
+}
+.other .recommend-lessons .container .owl-controls .owl-prev:hover {
+  background-position: -72px -234px;
+}
+.other .recommend-lessons .container .owl-controls .owl-next {
+  right: -50px;
+  background: url(../images/sprite.png) no-repeat -101px -276px;
+}
+.other .recommend-lessons .container .owl-controls .owl-next:hover {
+  background-position: -101px -234px;
 }
