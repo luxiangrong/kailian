@@ -192,6 +192,7 @@ li {
 header {
   position: relative;
   border-bottom: 4px solid #000;
+  background-color: #fff;
   z-index: 100;
 }
 header .head-wrap {

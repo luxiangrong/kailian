@@ -9,6 +9,11 @@
 				items : 4,
 				responsive: false
 			});
+			
+			$("#banner-slider").bxSlider({
+				pagerCustom: '#bx-pager',
+				controls: false
+			});
 		});
 	});
 })(jQuery);
