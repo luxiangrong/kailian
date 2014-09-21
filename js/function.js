@@ -6,7 +6,8 @@
 				pagination: false,
 				mouseDrag: false,
 				navigationText : ['', ''],
-				items : 4
+				items : 4,
+				responsive: false
 			});
 		});
 	});

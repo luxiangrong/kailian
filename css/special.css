@@ -223,9 +223,80 @@ fieldset[disabled] .main .products-wrap .container .col .product .info .btn.acti
   margin-bottom: 20px;
 }
 .other .recommend-lessons .container {
-  width: 860px;
+  width: 940px;
+}
+.other .recommend-lessons .container .lesson {
+  margin: 0 10px;
+}
+.other .recommend-lessons .container .lesson a {
+  position: relative;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.other .recommend-lessons .container .lesson a img {
+  display: block;
+  width: 100%;
+}
+.other .recommend-lessons .container .lesson a .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #470505;
+  opacity: 0.68;
+  filter: alpha(opacity=68);
+  /*IE7 fix*/
+  display: none;
+}
+.other .recommend-lessons .container .lesson a .lesson-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.other .recommend-lessons .container .lesson a .lesson-detail .lesson-detail-wrap {
+  margin: 20px;
+  padding: 20px;
+  border: 1px dashed #959595;
+  height: 130px;
+  overflow: hidden;
+}
+.other .recommend-lessons .container .lesson a .lesson-detail span.price {
+  color: #ffe931;
+  font-size: 28px;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-weight: bold;
+}
+.other .recommend-lessons .container .lesson a .lesson-detail span.unit {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-weight: bold;
+}
+.other .recommend-lessons .container .lesson a .lesson-detail span.name {
+  font-size: 18px;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  display: block;
+  font-weight: bold;
+}
+.other .recommend-lessons .container .lesson a .lesson-detail span.description {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, SimSun, "宋体", "Microsoft YaHei", "微软雅黑", sans-serif;
+  display: block;
+}
+.other .recommend-lessons .container .lesson a:hover .mask,
+.other .recommend-lessons .container .lesson a:hover .lesson-detail {
+  display: block;
+}
+.other .recommend-lessons .container .owl-wrapper-outer {
+  z-index: 2;
 }
 .other .recommend-lessons .container .owl-controls {
+  z-index: 1;
   position: absolute;
   margin-top: -21px;
   top: 50%;
@@ -241,14 +312,14 @@ fieldset[disabled] .main .products-wrap .container .col .product .info .btn.acti
   position: absolute;
 }
 .other .recommend-lessons .container .owl-controls .owl-prev {
-  left: -50px;
+  left: -30px;
   background: url(../images/sprite.png) no-repeat -72px -276px;
 }
 .other .recommend-lessons .container .owl-controls .owl-prev:hover {
   background-position: -72px -234px;
 }
 .other .recommend-lessons .container .owl-controls .owl-next {
-  right: -50px;
+  right: -30px;
   background: url(../images/sprite.png) no-repeat -101px -276px;
 }
 .other .recommend-lessons .container .owl-controls .owl-next:hover {

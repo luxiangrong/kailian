@@ -194,8 +194,83 @@
       margin-bottom: 20px;
     }
     .container {
-      width: 860px;
+      width: 940px;
+      .lesson {
+        margin:0 10px;
+        a {
+          position: relative;
+          display: block;
+          color: #fff;
+          text-decoration: none;
+          cursor: pointer;
+          img {
+            display: block;
+            width: 100%;
+          }
+          .mask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #470505;
+            opacity: 0.68;
+            filter: Alpha(Opacity=68);/*IE7 fix*/
+            display: none;
+          }
+          .lesson-detail {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none;
+            .lesson-detail-wrap {
+              margin: 20px;
+              padding: 20px;
+              border: 1px dashed #959595;
+              height: 130px;
+              overflow: hidden;
+            }
+            span {
+              &.price {
+                color: #ffe931;
+                font-size: 28px;
+                font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+                font-weight: bold;
+              }
+              &.unit {
+                font-size: @font-size-base;
+                font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+                font-weight: bold;
+              }
+              &.name {
+                font-size: @font-size-large;
+                font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+                display: block;
+                font-weight: bold;
+              }
+              &.description {
+                font-size: @font-size-base;
+                font-family: @font-family-base;
+                display: block;
+              }
+            }
+          }
+          &:hover {
+            .mask,
+            .lesson-detail {
+              display: block;
+            }
+          }
+        }
+        
+      }
+      .owl-wrapper-outer {
+        z-index: 2;
+      }
       .owl-controls {
+        z-index: 1;
         position: absolute;
         margin-top: -21px;
         top: 50%;
@@ -210,14 +285,14 @@
           position: absolute;
         }
         .owl-prev {
-          left: -50px;
+          left: -30px;
           background: url(../images/sprite.png) no-repeat -72px -276px;
           &:hover {
             background-position: -72px -234px;
           }
         }
         .owl-next {
-          right: -50px;
+          right: -30px;
           background: url(../images/sprite.png) no-repeat -101px -276px;
           &:hover {
             background-position: -101px -234px;
