@@ -172,7 +172,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   margin: 0;
   width: 100%;
   background: url(../images/scroll_bg_747x7.png) no-repeat center top;
-  height: 7px;
+  height: 8px;
 }
 .special .other .editor-words .book .paper {
   position: relative;
@@ -182,9 +182,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   font-size: 12px;
   line-height: 25px;
   margin-top: -5px;
-}
-.special .other .editor-words .book .paper p {
-  text-indent: 2em;
+  box-shadow: inset 0 3px 6px -1px rgba(0, 0, 0, 0.4);
 }
 .special .other .editor-words .book .paper h1 {
   color: #3381dd;
@@ -192,6 +190,8 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   text-align: center;
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 .special .other .editor-words .book .paper h1 strong {
   display: inline-block;
@@ -212,10 +212,10 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 .special .other .recommend-lessons h3 {
   text-align: center;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .special .other .recommend-lessons .container {
-  width: 940px;
+  width: 900px;
 }
 .special .other .recommend-lessons .container .lesson {
   margin: 0 10px;
@@ -253,7 +253,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 }
 .special .other .recommend-lessons .container .lesson a .lesson-detail .lesson-detail-wrap {
   margin: 20px;
-  padding: 20px;
+  padding: 15px;
   border: 1px dashed #959595;
   height: 130px;
   overflow: hidden;
@@ -304,14 +304,14 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   position: absolute;
 }
 .special .other .recommend-lessons .container .owl-controls .owl-prev {
-  left: -30px;
+  left: -40px;
   background: url(../images/sprite.png) no-repeat -72px -276px;
 }
 .special .other .recommend-lessons .container .owl-controls .owl-prev:hover {
   background-position: -72px -234px;
 }
 .special .other .recommend-lessons .container .owl-controls .owl-next {
-  right: -30px;
+  right: -40px;
   background: url(../images/sprite.png) no-repeat -101px -276px;
 }
 .special .other .recommend-lessons .container .owl-controls .owl-next:hover {
@@ -336,6 +336,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   width: 1000px;
 }
 .special.special-2 .container.shops h1 {
+  margin-top: 40px;
   font-size: 24px;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
@@ -351,6 +352,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 }
 .special.special-2 .container.shops h3 {
   margin-top: 0px;
+  margin-bottom: 12px;
 }
 .special.special-2 .container.shops p {
   font-size: 12px;
@@ -385,6 +387,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   display: block;
 }
 .special.special-2 .container.shops ul li dl dd {
+  position: relative;
   margin: 0;
   float: left;
   width: 520px;
@@ -394,4 +397,13 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   color: #303030;
   font-size: 12px;
   line-height: 20px;
+}
+.special.special-2 .container.shops ul li dl dd .icon-starting {
+  width: 80px;
+  height: 45px;
+  background: url(../images/sprite.png) no-repeat 0px -320px;
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
 }
