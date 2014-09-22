@@ -310,6 +310,9 @@ header .col-search .search-hotword .icon-split,
 header .col-search .search-hotword .icon-more {
   vertical-align: middle;
 }
+header .col-search .search-hotword .icon-split {
+  width: 15px;
+}
 header .col-right {
   position: relative;
   float: left;

@@ -687,7 +687,11 @@ header .col-search .search-hotword .icon-split,
 header .col-search .search-hotword .icon-more {
   vertical-align: middle;
 }
-/* line 258, common.less */
+/* line 256, common.less */
+header .col-search .search-hotword .icon-split {
+  width: 15px;
+}
+/* line 261, common.less */
 header .col-right {
   position: relative;
   float: left;
@@ -697,14 +701,14 @@ header .col-right {
   padding-right: 0;
   padding-top: 35px;
 }
-/* line 261, common.less */
+/* line 264, common.less */
 header .col-right .map-search {
   margin-left: 20px;
   vertical-align: middle;
   color: #6888e3;
   font-size: 12px;
 }
-/* line 267, common.less */
+/* line 270, common.less */
 header .col-right .cart-wrap {
   margin-top: -15px;
   border: 1px solid #d9d9d9;
@@ -712,13 +716,13 @@ header .col-right .cart-wrap {
   height: 40px;
   line-height: 36px;
 }
-/* line 273, common.less */
+/* line 276, common.less */
 header .col-right .cart-wrap .icon-cart {
   vertical-align: middle;
   margin: 3px 10px;
   float: left;
 }
-/* line 278, common.less */
+/* line 281, common.less */
 header .col-right .cart-wrap p {
   cursor: pointer;
   display: inline-block;
@@ -732,11 +736,11 @@ header .col-right .cart-wrap p {
   background-color: #f9f9f9;
   border-left: 1px solid #d9d9d9;
 }
-/* line 291, common.less */
+/* line 294, common.less */
 header .col-right .cart-wrap p {
   *display: inline;
 }
-/* line 296, common.less */
+/* line 299, common.less */
 header .banner {
   width: 1000px;
   position: absolute;
@@ -745,23 +749,23 @@ header .banner {
   bottom: -504px;
   z-index: 1;
 }
-/* line 303, common.less */
+/* line 306, common.less */
 header .banner img {
   display: block;
 }
 /**
  *   footer 区域的样式
  */
-/* line 313, common.less */
+/* line 316, common.less */
 footer {
   background-color: #e0e0e0;
 }
-/* line 315, common.less */
+/* line 318, common.less */
 footer .footer-top {
   background-color: #000;
   padding: 10px 0;
 }
-/* line 318, common.less */
+/* line 321, common.less */
 footer .footer-top .col {
   position: relative;
   float: left;
@@ -770,22 +774,22 @@ footer .footer-top .col {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 320, common.less */
+/* line 323, common.less */
 footer .footer-top .col.col-offset {
   margin-left: 8.33333333%;
 }
-/* line 323, common.less */
+/* line 326, common.less */
 footer .footer-top .col .bg-wrap {
   margin: 5px;
   background-color: #fff;
   height: 100px;
 }
-/* line 328, common.less */
+/* line 331, common.less */
 footer .footer-top .col .bg-wrap.qr img {
   float: left;
   margin: 10px 30px;
 }
-/* line 332, common.less */
+/* line 335, common.less */
 footer .footer-top .col .bg-wrap.qr p {
   font-size: 12px;
   color: #303030;
@@ -793,16 +797,16 @@ footer .footer-top .col .bg-wrap.qr p {
   padding: 30px 30px 0px 0;
   line-height: 1.42857143;
 }
-/* line 340, common.less */
+/* line 343, common.less */
 footer .footer-top .col .bg-wrap.weibo {
   line-height: 100px;
 }
-/* line 342, common.less */
+/* line 345, common.less */
 footer .footer-top .col .bg-wrap.weibo img {
   float: left;
   margin: 30px;
 }
-/* line 346, common.less */
+/* line 349, common.less */
 footer .footer-top .col .bg-wrap.weibo .btn {
   color: #303030;
   background-color: #f9f9f9;
@@ -854,20 +858,20 @@ footer .footer-top .col .bg-wrap.weibo .btn .badge {
   color: #f9f9f9;
   background-color: #303030;
 }
-/* line 354, common.less */
+/* line 357, common.less */
 footer .footer-top .col .bg-wrap.app span {
   float: left;
   margin: 40px 0;
   margin-left: 10%;
   width: 35%;
 }
-/* line 360, common.less */
+/* line 363, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group {
   float: left;
   width: 45%;
   height: 100%;
 }
-/* line 364, common.less */
+/* line 367, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn {
   cursor: pointer;
   margin-top: 10px;
@@ -923,25 +927,25 @@ footer .footer-top .col .bg-wrap.app .btn-group .btn .badge {
   color: #f9f9f9;
   background-color: #303030;
 }
-/* line 373, common.less */
+/* line 376, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn.btn-ios {
   border-color: #26aff6;
 }
-/* line 376, common.less */
+/* line 379, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn.btn-android {
   border-color: #fd8816;
 }
-/* line 379, common.less */
+/* line 382, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn img {
   vertical-align: middle;
   height: 25px;
   margin-right: 5px;
 }
-/* line 390, common.less */
+/* line 393, common.less */
 footer .footer-bottom {
   padding-bottom: 30px;
 }
-/* line 392, common.less */
+/* line 395, common.less */
 footer .footer-bottom .col {
   position: relative;
   float: left;
@@ -953,37 +957,37 @@ footer .footer-bottom .col {
   border-right: 1px dashed #959595;
   margin-top: 30px;
 }
-/* line 397, common.less */
+/* line 400, common.less */
 footer .footer-bottom .col.first {
   border-left: 0px dashed #fff;
 }
-/* line 400, common.less */
+/* line 403, common.less */
 footer .footer-bottom .col.last {
   border-right: 0px dashed #fff;
 }
-/* line 403, common.less */
+/* line 406, common.less */
 footer .footer-bottom .col.col-offset {
   margin-left: 8.33333333%;
 }
-/* line 406, common.less */
+/* line 409, common.less */
 footer .footer-bottom .col h5 {
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
   margin: 0 0 10px 100px;
 }
-/* line 410, common.less */
+/* line 413, common.less */
 footer .footer-bottom .col h5 i {
   margin-right: 10px;
 }
-/* line 414, common.less */
+/* line 417, common.less */
 footer .footer-bottom .col ul {
   margin-left: 140px;
 }
-/* line 416, common.less */
+/* line 419, common.less */
 footer .footer-bottom .col ul li {
   margin-bottom: 15px;
 }
-/* line 418, common.less */
+/* line 421, common.less */
 footer .footer-bottom .col ul li a {
   font-size: 12px;
   color: #727272;
@@ -1005,19 +1009,58 @@ body.home {
 /* line 10, home.less */
 body.home .main {
   margin-bottom: 40px;
+  position: relative;
 }
-/* line 13, home.less */
+/* line 14, home.less */
+body.home .banner-slider-wrap {
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  bottom: -451px;
+  z-index: -1;
+}
+/* line 21, home.less */
+body.home .banner-holder {
+  height: 430px;
+}
+/* line 24, home.less */
 body.home .bx-wrapper {
   margin-bottom: 6px;
+  height: 530px;
+  position: relative;
 }
-/* line 15, home.less */
+/* line 28, home.less */
 body.home .bx-wrapper .bx-viewport {
   border: 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
   left: 0px;
+  width: 100%;
+  height: 530px  !important;
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+  background-color: transparent;
 }
-/* line 21, home.less */
+/* line 37, home.less */
+body.home .bx-wrapper .bx-viewport .bxslider {
+  height: 530px !important;
+}
+/* line 39, home.less */
+body.home .bx-wrapper .bx-viewport .bxslider li {
+  height: 100% !important;
+}
+/* line 41, home.less */
+body.home .bx-wrapper .bx-viewport .bxslider li img {
+  position: absolute;
+  z-index: 300;
+  left: 0px;
+  bottom: 0px;
+}
+/* line 46, home.less */
+body.home .bx-wrapper .bx-viewport .bxslider li img img {
+  display: block;
+}
+/* line 54, home.less */
 body.home #bx-pager {
   text-align: center;
   margin: 0 -3px;
@@ -1042,19 +1085,19 @@ body.home #bx-pager:after {
 body.home #bx-pager:after {
   clear: both;
 }
-/* line 25, home.less */
+/* line 58, home.less */
 body.home #bx-pager a {
   float: left;
   width: 195px;
   margin: 0 3px;
   text-align: center;
 }
-/* line 30, home.less */
+/* line 63, home.less */
 body.home #bx-pager a img {
   width: 100%;
   display: block;
 }
-/* line 38, home.less */
+/* line 71, home.less */
 body.home .container .col-main {
   position: relative;
   float: left;
@@ -1063,56 +1106,57 @@ body.home .container .col-main {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 40, home.less */
+/* line 73, home.less */
 body.home .container .col-main.hot-lessons {
   margin-top: 70px;
 }
-/* line 42, home.less */
+/* line 75, home.less */
 body.home .container .col-main.hot-lessons .row {
-  margin-right: -10px;
+  margin-right: -20px;
 }
-/* line 45, home.less */
+/* line 78, home.less */
 body.home .container .col-main.hot-lessons .col-main-wrap {
   margin-right: 5px;
   border-top: 2px solid #000;
 }
-/* line 48, home.less */
+/* line 81, home.less */
 body.home .container .col-main.hot-lessons .col-main-wrap h1 {
   margin-top: -26px;
   margin-bottom: 10px;
   text-align: center;
   border-bottom: 1px solid #000;
 }
-/* line 56, home.less */
+/* line 89, home.less */
 body.home .container .col-main.hot-lessons .hot-lesson .hot-lesson-wrap {
   border: 1px solid #f9f9f9;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-bottom: 20px;
   background-color: #fff;
 }
-/* line 61, home.less */
+/* line 94, home.less */
 body.home .container .col-main.hot-lessons .hot-lesson .hot-lesson-wrap:hover {
   border: 1px solid #d70606;
 }
-/* line 65, home.less */
+/* line 98, home.less */
 body.home .container .col-main.hot-lessons .hot-lesson img {
   width: 100%;
 }
-/* line 68, home.less */
+/* line 101, home.less */
 body.home .container .col-main.hot-lessons .hot-lesson h2 {
   font-size: 18px;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
-  margin: 5px 0;
+  margin: 10px 0;
   padding-left: 10px;
 }
-/* line 74, home.less */
+/* line 107, home.less */
 body.home .container .col-main.hot-lessons .hot-lesson p {
   font-size: 12px;
   color: #818181;
   margin-top: 5px;
   padding-left: 10px;
+  margin-bottom: 15px;
 }
-/* line 81, home.less */
+/* line 115, home.less */
 body.home .container .col-main.hot-lessons .page-more {
   clear: both;
   border-top: 1px solid #cccccc;
@@ -1120,7 +1164,7 @@ body.home .container .col-main.hot-lessons .page-more {
   margin-bottom: 30px;
   height: 35px;
 }
-/* line 87, home.less */
+/* line 121, home.less */
 body.home .container .col-main.hot-lessons .page-more .more {
   display: inline-block;
   font-size: 12px;
@@ -1132,7 +1176,7 @@ body.home .container .col-main.hot-lessons .page-more .more {
   color: #303030;
   text-decoration: none;
 }
-/* line 97, home.less */
+/* line 131, home.less */
 body.home .container .col-main.hot-lessons .page-more .more i {
   width: 12px;
   height: 12px;
@@ -1141,16 +1185,16 @@ body.home .container .col-main.hot-lessons .page-more .more i {
   vertical-align: middle;
   *background-position: 0px -119px;
 }
-/* line 105, home.less */
+/* line 139, home.less */
 body.home .container .col-main.hot-lessons .page-more .more:hover {
   color: #d70606;
 }
-/* line 107, home.less */
+/* line 141, home.less */
 body.home .container .col-main.hot-lessons .page-more .more:hover i {
   background-position: 0px -134px;
   *background-position: 0px -135px;
 }
-/* line 116, home.less */
+/* line 150, home.less */
 body.home .container .col-side {
   position: relative;
   float: left;
@@ -1160,25 +1204,25 @@ body.home .container .col-side {
   padding-right: 0;
   margin-top: 70px;
 }
-/* line 119, home.less */
+/* line 153, home.less */
 body.home .container .col-side .col-side-wrap {
   margin-left: 5px;
 }
-/* line 122, home.less */
+/* line 156, home.less */
 body.home .container .col-side .hot-groups {
   text-align: center;
   background-color: #ebebeb;
 }
-/* line 125, home.less */
+/* line 159, home.less */
 body.home .container .col-side .hot-groups h3 {
   margin-top: 0;
 }
-/* line 130, home.less */
+/* line 164, home.less */
 body.home .container .col-side .hot-groups ul li h4 {
   font-size: 16px;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
 }
-/* line 137, home.less */
+/* line 171, home.less */
 body.home .container .col-side .create-group {
   width: 195px;
   height: 98px;
@@ -1186,7 +1230,7 @@ body.home .container .col-side .create-group {
   margin-top: -21px;
   text-align: center;
 }
-/* line 143, home.less */
+/* line 177, home.less */
 body.home .container .col-side .create-group strong {
   display: block;
   padding-top: 20px;
@@ -1194,7 +1238,7 @@ body.home .container .col-side .create-group strong {
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
 }
-/* line 150, home.less */
+/* line 184, home.less */
 body.home .container .col-side .create-group a {
   color: #df0303;
   font-size: 32px;
@@ -1202,62 +1246,65 @@ body.home .container .col-side .create-group a {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 158, home.less */
+/* line 192, home.less */
 body.home .container .col-side .recommend-tops {
   background: #efefef url(../images/bg_recommend_topics.png) no-repeat center bottom;
   padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-/* line 161, home.less */
+/* line 197, home.less */
 body.home .container .col-side .recommend-tops h3 {
   margin-bottom: 0;
 }
-/* line 164, home.less */
+/* line 200, home.less */
 body.home .container .col-side .recommend-tops ul {
   padding: 0 10px;
 }
-/* line 166, home.less */
+/* line 202, home.less */
 body.home .container .col-side .recommend-tops ul li {
   padding-left: 30px;
   font-size: 12px;
   color: #666666;
-  padding-top: 21px;
+  padding-top: 25px;
+  line-height: 20px;
 }
-/* line 171, home.less */
+/* line 208, home.less */
 body.home .container .col-side .recommend-tops ul li.star {
-  background: url(../images/bg_star.png) no-repeat left -5px;
+  background: url(../images/bg_star.png) no-repeat left 0px;
 }
-/* line 174, home.less */
+/* line 211, home.less */
 body.home .container .col-side .recommend-tops ul li.dot {
-  background: url(../images/bg_dot.png) no-repeat left -5px;
+  background: url(../images/bg_dot.png) no-repeat left 0px;
 }
-/* line 177, home.less */
+/* line 214, home.less */
 body.home .container .col-side .recommend-tops ul li.last {
   padding-bottom: 20px;
 }
-/* line 180, home.less */
+/* line 217, home.less */
 body.home .container .col-side .recommend-tops ul li.first {
-  padding-top: 15px;
-  background-position: left -10px;
+  padding-top: 20px;
+  background-position: left -5px;
 }
-/* line 186, home.less */
+/* line 223, home.less */
 body.home .container .col-side .recommend-tops p {
   text-align: center;
   margin: -10px 0 0px;
 }
-/* line 189, home.less */
+/* line 226, home.less */
 body.home .container .col-side .recommend-tops p a {
   color: #4c72e0;
   text-decoration: none;
   font-size: 12px;
 }
-/* line 193, home.less */
+/* line 230, home.less */
 body.home .container .col-side .recommend-tops p a i {
   width: 12px;
   height: 12px;
   display: inline-block;
   background: url(../images/sprite.png) -19px -135px;
 }
-/* line 202, home.less */
+/* line 239, home.less */
 body.home .container .col-side .experience {
   background-color: #efefef;
   padding-bottom: 20px;
@@ -1282,11 +1329,12 @@ body.home .container .col-side .experience:after {
 body.home .container .col-side .experience:after {
   clear: both;
 }
-/* line 206, home.less */
+/* line 243, home.less */
 body.home .container .col-side .experience h3 {
   margin-bottom: 0;
+  margin-top: 0px;
 }
-/* line 210, home.less */
+/* line 248, home.less */
 body.home .container .col-side .experience ul li {
   background: url(../images/bg_line.png) no-repeat 23px center;
   padding-top: 10px;
@@ -1311,7 +1359,7 @@ body.home .container .col-side .experience ul li:after {
 body.home .container .col-side .experience ul li:after {
   clear: both;
 }
-/* line 214, home.less */
+/* line 252, home.less */
 body.home .container .col-side .experience ul li .avator {
   float: left;
   width: 15%;
@@ -1321,38 +1369,38 @@ body.home .container .col-side .experience ul li .avator {
   height: 100%;
   padding-top: 3px;
 }
-/* line 223, home.less */
+/* line 261, home.less */
 body.home .container .col-side .experience ul li .text-info {
   float: left;
   width: 74.5%;
 }
-/* line 226, home.less */
+/* line 264, home.less */
 body.home .container .col-side .experience ul li .text-info h5 {
   font-size: 12px;
   font-weight: bold;
   color: #303030;
   margin: 5px;
 }
-/* line 232, home.less */
+/* line 270, home.less */
 body.home .container .col-side .experience ul li .text-info p {
   font-size: 12px;
   color: #5e5e5e;
   margin: 5px;
 }
-/* line 237, home.less */
+/* line 275, home.less */
 body.home .container .col-side .experience ul li .text-info .date {
   font-size: 12px;
   color: #919191;
   margin: 5px;
   text-align: right;
 }
-/* line 246, home.less */
+/* line 284, home.less */
 body.home .container .col-side .experience .more {
   margin-top: 10px;
   margin-right: 10px;
   text-align: right;
 }
-/* line 250, home.less */
+/* line 288, home.less */
 body.home .container .col-side .experience .more a {
   color: #4c72e0;
   text-decoration: none;
