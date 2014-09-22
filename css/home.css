@@ -20,6 +20,9 @@ body.home .bx-wrapper .bx-viewport {
   box-shadow: none;
   left: 0px;
 }
+body.home #bx-pager {
+  text-align: center;
+}
 body.home .container .col-main {
   position: relative;
   float: left;
