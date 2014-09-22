@@ -143,7 +143,8 @@ li {
   background-position: -64px 0px;
 }
 .icon-32.icon-cart {
-  background-position: -96px 0px;
+  width: 42px;
+  background-position: -127px -233px;
 }
 .icon-32.icon-down {
   width: 24px;
@@ -216,6 +217,9 @@ header .col-search {
   padding-left: 0;
   padding-right: 0;
 }
+header .col-search .col-search-wrap {
+  margin-left: 20px;
+}
 header .col-search .search-tab ul:before,
 header .col-search .search-tab ul:after {
   content: " ";
@@ -275,8 +279,7 @@ header .col-search .search-box input.search-input-text {
   padding-left: 10px;
   height: 24px;
   line-height: 24px;
-  width: 408px;
-  width: 396px;
+  width: 376px;
   border: 0;
   outline: 0;
   color: #989898;
@@ -331,14 +334,15 @@ header .col-right .cart-wrap {
 }
 header .col-right .cart-wrap .icon-cart {
   vertical-align: middle;
-  margin: 0 5px;
+  margin: 3px 10px;
+  float: left;
 }
 header .col-right .cart-wrap p {
   cursor: pointer;
   display: inline-block;
   margin: 0;
   height: 100%;
-  width: 145px;
+  width: 130px;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-size: 14px;
   color: #777;

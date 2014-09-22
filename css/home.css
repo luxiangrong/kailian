@@ -13,7 +13,7 @@ body.home .main {
   margin-bottom: 40px;
 }
 body.home .bx-wrapper {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 body.home .bx-wrapper .bx-viewport {
   border: 0px;
@@ -22,6 +22,25 @@ body.home .bx-wrapper .bx-viewport {
 }
 body.home #bx-pager {
   text-align: center;
+  margin: 0 -3px;
+}
+body.home #bx-pager:before,
+body.home #bx-pager:after {
+  content: " ";
+  display: table;
+}
+body.home #bx-pager:after {
+  clear: both;
+}
+body.home #bx-pager a {
+  float: left;
+  width: 195px;
+  margin: 0 3px;
+  text-align: center;
+}
+body.home #bx-pager a img {
+  width: 100%;
+  display: block;
 }
 body.home .container .col-main {
   position: relative;
@@ -34,19 +53,24 @@ body.home .container .col-main {
 body.home .container .col-main.hot-lessons {
   margin-top: 70px;
 }
+body.home .container .col-main.hot-lessons .row {
+  margin-right: -10px;
+}
 body.home .container .col-main.hot-lessons .col-main-wrap {
-  margin-right: 10px;
+  margin-right: 5px;
   border-top: 2px solid #000;
 }
 body.home .container .col-main.hot-lessons .col-main-wrap h1 {
   margin-top: -26px;
+  margin-bottom: 10px;
   text-align: center;
   border-bottom: 1px solid #000;
 }
 body.home .container .col-main.hot-lessons .hot-lesson .hot-lesson-wrap {
   border: 1px solid #f9f9f9;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
 }
 body.home .container .col-main.hot-lessons .hot-lesson .hot-lesson-wrap:hover {
   border: 1px solid #d70606;
@@ -57,14 +81,14 @@ body.home .container .col-main.hot-lessons .hot-lesson img {
 body.home .container .col-main.hot-lessons .hot-lesson h2 {
   font-size: 18px;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
-  margin-bottom: 5px;
-  padding-left: 20px;
+  margin: 5px 0;
+  padding-left: 10px;
 }
 body.home .container .col-main.hot-lessons .hot-lesson p {
   font-size: 12px;
   color: #818181;
   margin-top: 5px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 body.home .container .col-main.hot-lessons .page-more {
   clear: both;
@@ -144,8 +168,7 @@ body.home .container .col-side .create-group a {
   text-decoration: none;
 }
 body.home .container .col-side .recommend-tops {
-  background-color: #efefef;
-  background: #ebebeb url(../images/bg_recommend_topics.png) no-repeat center bottom;
+  background: #efefef url(../images/bg_recommend_topics.png) no-repeat center bottom;
   padding-bottom: 20px;
 }
 body.home .container .col-side .recommend-tops h3 {
@@ -158,19 +181,24 @@ body.home .container .col-side .recommend-tops ul li {
   padding-left: 30px;
   font-size: 12px;
   color: #666666;
-  padding-top: 27px;
+  padding-top: 21px;
 }
 body.home .container .col-side .recommend-tops ul li.star {
-  background: url(../images/bg_star.png) no-repeat left top;
+  background: url(../images/bg_star.png) no-repeat left -5px;
 }
 body.home .container .col-side .recommend-tops ul li.dot {
-  background: url(../images/bg_dot.png) no-repeat left top;
+  background: url(../images/bg_dot.png) no-repeat left -5px;
 }
 body.home .container .col-side .recommend-tops ul li.last {
   padding-bottom: 20px;
 }
+body.home .container .col-side .recommend-tops ul li.first {
+  padding-top: 15px;
+  background-position: left -10px;
+}
 body.home .container .col-side .recommend-tops p {
   text-align: center;
+  margin: -10px 0 0px;
 }
 body.home .container .col-side .recommend-tops p a {
   color: #4c72e0;
@@ -199,7 +227,7 @@ body.home .container .col-side .experience h3 {
   margin-bottom: 0;
 }
 body.home .container .col-side .experience ul li {
-  background: url(../images/bg_line.png) no-repeat 30px center;
+  background: url(../images/bg_line.png) no-repeat 23px center;
   padding-top: 10px;
 }
 body.home .container .col-side .experience ul li:before,
@@ -212,15 +240,16 @@ body.home .container .col-side .experience ul li:after {
 }
 body.home .container .col-side .experience ul li .avator {
   float: left;
-  width: 20%;
+  width: 15%;
   margin-left: 5%;
   margin-right: 2.5%;
   text-align: center;
   height: 100%;
+  padding-top: 3px;
 }
 body.home .container .col-side .experience ul li .text-info {
   float: left;
-  width: 72.5%;
+  width: 74.5%;
 }
 body.home .container .col-side .experience ul li .text-info h5 {
   font-size: 12px;
@@ -240,7 +269,7 @@ body.home .container .col-side .experience ul li .text-info .date {
   text-align: right;
 }
 body.home .container .col-side .experience .more {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 10px;
   text-align: right;
 }
