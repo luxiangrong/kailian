@@ -66,10 +66,30 @@ body.home #bx-pager:after {
   clear: both;
 }
 body.home #bx-pager a {
+  position: relative;
   float: left;
   width: 195px;
   margin: 0 3px;
   text-align: center;
+}
+body.home #bx-pager a .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  opacity: 0.6;
+  filter: alpha(opacity=68);
+  /*IE7 fix*/
+}
+body.home #bx-pager a.active .mask {
+  background-color: transparent;
+}
+body.home #bx-pager a:hover .mask {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  /*IE7 fix*/
 }
 body.home #bx-pager a img {
   width: 100%;
@@ -156,6 +176,12 @@ body.home .container .col-main.hot-lessons .page-more .more:hover {
 body.home .container .col-main.hot-lessons .page-more .more:hover i {
   background-position: 0px -134px;
   *background-position: 0px -135px;
+}
+body.home .container .col-main.hot-lessons .page-more.active {
+  border-top: 1px solid #d70606;
+}
+body.home .container .col-main.hot-lessons .page-more.active a.more {
+  border-color: #d70606;
 }
 body.home .container .col-side {
   position: relative;
