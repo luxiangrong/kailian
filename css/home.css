@@ -45,13 +45,7 @@ body.home .bx-wrapper .bx-viewport .bxslider {
 body.home .bx-wrapper .bx-viewport .bxslider li {
   height: 100% !important;
 }
-body.home .bx-wrapper .bx-viewport .bxslider li img {
-  position: absolute;
-  z-index: 300;
-  left: 0px;
-  bottom: 0px;
-}
-body.home .bx-wrapper .bx-viewport .bxslider li img img {
+body.home .bx-wrapper .bx-viewport .bxslider li a {
   display: block;
 }
 body.home #bx-pager {
