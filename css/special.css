@@ -32,11 +32,10 @@
 }
 .special .main .products-wrap {
   position: relative;
-  border-top: 4px solid #df0505;
-  background: url(../images/products_wrap_bg_1920x107.png) no-repeat center 24px;
-  *background-position: center 28px;
+  background: no-repeat center 0px;
   z-index: 101;
   margin-bottom: 40px;
+  padding-top: 119px;
 }
 .special .main .products-wrap .container h3 {
   margin: 0;
@@ -59,7 +58,7 @@
 .special .main .products-wrap .container .col .product {
   position: relatvie;
   background-color: #fff;
-  margin: 20px 10px 0;
+  margin: 0px 10px 0;
 }
 .special .main .products-wrap .container .col .product .sale-tag {
   position: absolute;
@@ -151,7 +150,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   background: url(../images/other_bg_36x36.jpg) left center;
 }
 .special .other .editor-words {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .special .other .editor-words .book {
   position: relatvie;
@@ -181,8 +180,6 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   padding: 10px 50px 30px;
   font-size: 12px;
   line-height: 25px;
-  margin-top: -5px;
-  box-shadow: inset 0 3px 6px -1px rgba(0, 0, 0, 0.4);
 }
 .special .other .editor-words .book .paper h1 {
   color: #3381dd;
@@ -199,14 +196,25 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   padding-bottom: 10px;
   background: url(../images/line_01_107x7.png) repeat-x left bottom;
 }
+.special .other .editor-words .book .paper h1 .icon-pencil {
+  margin-bottom: -8px;
+}
+.special .other .editor-words .book .paper-top {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin-top: -5px;
+  background: url(../images/paper_top.png) repeat-x 0 center;
+  z-index: 100;
+}
 .special .other .editor-words .book .paper-bottom {
   width: 100%;
-  height: 3px;
-  margin-bottom: -3px;
+  height: 6px;
+  margin-bottom: -6px;
   background: url(../images/paper_bottom.png) repeat-x 0 center;
 }
 .special .other .recommend-lessons {
-  margin-top: 20px;
+  margin-top: 4px;
   padding-bottom: 50px;
 }
 .special .other .recommend-lessons h3 {

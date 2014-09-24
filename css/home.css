@@ -114,7 +114,7 @@ body.home .container .col-main.hot-lessons {
   margin-top: 70px;
 }
 body.home .container .col-main.hot-lessons .row {
-  margin-right: -20px;
+  margin-right: -15px;
   *margin-right: 0px;
   *width: 1016px;
 }
@@ -130,7 +130,7 @@ body.home .container .col-main.hot-lessons .col-main-wrap h1 {
 }
 body.home .container .col-main.hot-lessons .hot-lesson .hot-lesson-wrap {
   border: 1px solid #f9f9f9;
-  margin-right: 20px;
+  margin-right: 15px;
   margin-bottom: 20px;
   background-color: #fff;
 }
