@@ -16,6 +16,7 @@ body.home {
     left: 50%;
     margin-left: -600px;
     bottom: -451px;
+    *bottom: -457px;
     z-index: -1;
   }
   .banner-holder {
@@ -61,6 +62,12 @@ body.home {
       width: 195px;
       margin: 0 3px;
       text-align: center;
+      &.first {
+        *margin-left: 0px;
+      }
+      &.last {
+        *margin-right: 0px;
+      }
       .mask {
         position: absolute;
         width: 100%;
@@ -96,6 +103,8 @@ body.home {
         margin-top: 70px;
         .row {
           margin-right: -20px;
+          *margin-right: 0px;
+          *width: 1016px;
         }
         .col-main-wrap {
           margin-right: 5px;
@@ -273,9 +282,10 @@ body.home {
           margin-top: 0px;
         }
         ul {
+          .clearfix();
           li {
             .clearfix();
-            background: url(../images/bg_line.png) no-repeat 23px center;
+            background: url(../images/bg_line.png) repeat-y 23px center;
             padding-top: 10px;
             .avator {
               float: left;
@@ -288,6 +298,7 @@ body.home {
             }
             .text-info {
               float: left;
+              *float: none;
               width: 74.5%;
               h5 {
                 font-size: 12px;

@@ -18,6 +18,7 @@ body.home .banner-slider-wrap {
   left: 50%;
   margin-left: -600px;
   bottom: -451px;
+  *bottom: -457px;
   z-index: -1;
 }
 body.home .banner-holder {
@@ -72,6 +73,12 @@ body.home #bx-pager a {
   margin: 0 3px;
   text-align: center;
 }
+body.home #bx-pager a.first {
+  *margin-left: 0px;
+}
+body.home #bx-pager a.last {
+  *margin-right: 0px;
+}
 body.home #bx-pager a .mask {
   position: absolute;
   width: 100%;
@@ -108,6 +115,8 @@ body.home .container .col-main.hot-lessons {
 }
 body.home .container .col-main.hot-lessons .row {
   margin-right: -20px;
+  *margin-right: 0px;
+  *width: 1016px;
 }
 body.home .container .col-main.hot-lessons .col-main-wrap {
   margin-right: 5px;
@@ -290,8 +299,16 @@ body.home .container .col-side .experience h3 {
   margin-bottom: 0;
   margin-top: 0px;
 }
+body.home .container .col-side .experience ul:before,
+body.home .container .col-side .experience ul:after {
+  content: " ";
+  display: table;
+}
+body.home .container .col-side .experience ul:after {
+  clear: both;
+}
 body.home .container .col-side .experience ul li {
-  background: url(../images/bg_line.png) no-repeat 23px center;
+  background: url(../images/bg_line.png) repeat-y 23px center;
   padding-top: 10px;
 }
 body.home .container .col-side .experience ul li:before,
@@ -313,6 +330,7 @@ body.home .container .col-side .experience ul li .avator {
 }
 body.home .container .col-side .experience ul li .text-info {
   float: left;
+  *float: none;
   width: 74.5%;
 }
 body.home .container .col-side .experience ul li .text-info h5 {

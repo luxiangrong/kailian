@@ -289,6 +289,7 @@ header .col-search .search-box input.search-input-text {
   background: #fff;
   overflow-y: visible;
   vertical-align: middle;
+  *margin-left: -20px;
 }
 header .col-search .search-hotword {
   font-size: 12px;
