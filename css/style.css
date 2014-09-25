@@ -745,6 +745,7 @@ header .col-right .cart-wrap .label {
 header .col-right .cart-wrap p {
   cursor: pointer;
   display: inline-block;
+  float: left;
   margin: 0;
   height: 100%;
   width: 130px;
@@ -755,11 +756,11 @@ header .col-right .cart-wrap p {
   background-color: #f9f9f9;
   border-left: 1px solid #d9d9d9;
 }
-/* line 311, common.less */
+/* line 312, common.less */
 header .col-right .cart-wrap p {
   *display: inline;
 }
-/* line 314, common.less */
+/* line 315, common.less */
 header .col-right .cart-wrap .cart-dialog {
   border: 2px solid #000;
   padding: 20px;
@@ -772,7 +773,7 @@ header .col-right .cart-wrap .cart-dialog {
   color: #666666;
   display: none;
 }
-/* line 325, common.less */
+/* line 326, common.less */
 header .col-right .cart-wrap .cart-dialog h5 {
   margin: 0;
   margin-top: 10px;
@@ -782,12 +783,12 @@ header .col-right .cart-wrap .cart-dialog h5 {
   padding-bottom: 15px;
   border-bottom: 1px dashed #666666;
 }
-/* line 334, common.less */
+/* line 335, common.less */
 header .col-right .cart-wrap .cart-dialog .btn-group {
   text-align: center;
   margin-top: 20px;
 }
-/* line 338, common.less */
+/* line 339, common.less */
 header .col-right .cart-wrap .cart-dialog .btn {
   color: #ffffff;
   background-color: #df0505;
@@ -840,7 +841,7 @@ header .col-right .cart-wrap .cart-dialog .btn .badge {
   color: #df0505;
   background-color: #ffffff;
 }
-/* line 345, common.less */
+/* line 346, common.less */
 header .col-right .cart-wrap .cart-dialog .topicon {
   position: absolute;
   right: 0px;
@@ -850,18 +851,18 @@ header .col-right .cart-wrap .cart-dialog .topicon {
   height: 10px;
   background: url(../images/sprite.png) no-repeat 320px -319px;
 }
-/* line 355, common.less */
+/* line 356, common.less */
 header .col-right .cart-wrap .cart-dialog.full .btn-group {
   background-color: #f3f3f3;
   margin: 0 -20px -20px;
   padding-bottom: 20px;
   padding-top: 1px;
 }
-/* line 360, common.less */
+/* line 361, common.less */
 header .col-right .cart-wrap .cart-dialog.full .btn-group dl {
   border-bottom: none;
 }
-/* line 362, common.less */
+/* line 363, common.less */
 header .col-right .cart-wrap .cart-dialog.full .btn-group dl dt {
   text-align: right;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
@@ -869,14 +870,14 @@ header .col-right .cart-wrap .cart-dialog.full .btn-group dl dt {
   font-size: 14px;
   color: #000;
 }
-/* line 370, common.less */
+/* line 371, common.less */
 header .col-right .cart-wrap .cart-dialog.full .btn-group dl dd .price {
   color: #f60013;
   font-size: 16px;
   margin-left: 0px;
   font-weight: bold;
 }
-/* line 379, common.less */
+/* line 380, common.less */
 header .col-right .cart-wrap .cart-dialog.full dl {
   border-bottom: 1px dashed #666666;
   margin: 10px 0;
@@ -901,16 +902,16 @@ header .col-right .cart-wrap .cart-dialog.full dl:after {
 header .col-right .cart-wrap .cart-dialog.full dl:after {
   clear: both;
 }
-/* line 383, common.less */
+/* line 384, common.less */
 header .col-right .cart-wrap .cart-dialog.full dl.last {
   border-bottom: 0px;
 }
-/* line 386, common.less */
+/* line 387, common.less */
 header .col-right .cart-wrap .cart-dialog.full dl dt {
   float: left;
   width: 70%;
 }
-/* line 390, common.less */
+/* line 391, common.less */
 header .col-right .cart-wrap .cart-dialog.full dl dd {
   float: left;
   width: 30%;
@@ -918,18 +919,18 @@ header .col-right .cart-wrap .cart-dialog.full dl dd {
   margin: 0;
   text-align: left;
 }
-/* line 397, common.less */
+/* line 398, common.less */
 header .col-right .cart-wrap .cart-dialog.full dl dd span.price {
   color: #f60013;
   font-size: 14px;
   margin-left: 10px;
 }
-/* line 403, common.less */
+/* line 404, common.less */
 header .col-right .cart-wrap .cart-dialog.full dl dd b {
   margin: 0 10px;
   font-weight: normal;
 }
-/* line 413, common.less */
+/* line 414, common.less */
 header .banner {
   width: 1000px;
   position: absolute;
@@ -938,23 +939,23 @@ header .banner {
   bottom: -504px;
   z-index: 1;
 }
-/* line 420, common.less */
+/* line 421, common.less */
 header .banner img {
   display: block;
 }
 /**
  *   footer 区域的样式
  */
-/* line 430, common.less */
+/* line 431, common.less */
 footer {
   background-color: #e0e0e0;
 }
-/* line 432, common.less */
+/* line 433, common.less */
 footer .footer-top {
   background-color: #000;
   padding: 10px 0;
 }
-/* line 435, common.less */
+/* line 436, common.less */
 footer .footer-top .col {
   position: relative;
   float: left;
@@ -963,22 +964,22 @@ footer .footer-top .col {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 437, common.less */
+/* line 438, common.less */
 footer .footer-top .col.col-offset {
   margin-left: 8.33333333%;
 }
-/* line 440, common.less */
+/* line 441, common.less */
 footer .footer-top .col .bg-wrap {
   margin: 5px;
   background-color: #fff;
   height: 100px;
 }
-/* line 445, common.less */
+/* line 446, common.less */
 footer .footer-top .col .bg-wrap.qr img {
   float: left;
   margin: 10px 30px;
 }
-/* line 449, common.less */
+/* line 450, common.less */
 footer .footer-top .col .bg-wrap.qr p {
   font-size: 12px;
   color: #303030;
@@ -986,16 +987,16 @@ footer .footer-top .col .bg-wrap.qr p {
   padding: 30px 30px 0px 0;
   line-height: 1.42857143;
 }
-/* line 457, common.less */
+/* line 458, common.less */
 footer .footer-top .col .bg-wrap.weibo {
   line-height: 100px;
 }
-/* line 459, common.less */
+/* line 460, common.less */
 footer .footer-top .col .bg-wrap.weibo img {
   float: left;
   margin: 30px;
 }
-/* line 463, common.less */
+/* line 464, common.less */
 footer .footer-top .col .bg-wrap.weibo .btn {
   color: #303030;
   background-color: #f9f9f9;
@@ -1047,20 +1048,20 @@ footer .footer-top .col .bg-wrap.weibo .btn .badge {
   color: #f9f9f9;
   background-color: #303030;
 }
-/* line 471, common.less */
+/* line 472, common.less */
 footer .footer-top .col .bg-wrap.app span {
   float: left;
   margin: 40px 0;
   margin-left: 10%;
   width: 35%;
 }
-/* line 477, common.less */
+/* line 478, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group {
   float: left;
   width: 45%;
   height: 100%;
 }
-/* line 481, common.less */
+/* line 482, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn {
   cursor: pointer;
   margin-top: 10px;
@@ -1116,25 +1117,25 @@ footer .footer-top .col .bg-wrap.app .btn-group .btn .badge {
   color: #f9f9f9;
   background-color: #303030;
 }
-/* line 490, common.less */
+/* line 491, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn.btn-ios {
   border-color: #26aff6;
 }
-/* line 493, common.less */
+/* line 494, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn.btn-android {
   border-color: #fd8816;
 }
-/* line 496, common.less */
+/* line 497, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn img {
   vertical-align: middle;
   height: 25px;
   margin-right: 5px;
 }
-/* line 507, common.less */
+/* line 508, common.less */
 footer .footer-bottom {
   padding-bottom: 30px;
 }
-/* line 509, common.less */
+/* line 510, common.less */
 footer .footer-bottom .col {
   position: relative;
   float: left;
@@ -1146,37 +1147,37 @@ footer .footer-bottom .col {
   border-right: 1px dashed #959595;
   margin-top: 30px;
 }
-/* line 514, common.less */
+/* line 515, common.less */
 footer .footer-bottom .col.first {
   border-left: 0px dashed #fff;
 }
-/* line 517, common.less */
+/* line 518, common.less */
 footer .footer-bottom .col.last {
   border-right: 0px dashed #fff;
 }
-/* line 520, common.less */
+/* line 521, common.less */
 footer .footer-bottom .col.col-offset {
   margin-left: 8.33333333%;
 }
-/* line 523, common.less */
+/* line 524, common.less */
 footer .footer-bottom .col h5 {
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
   margin: 0 0 10px 100px;
 }
-/* line 527, common.less */
+/* line 528, common.less */
 footer .footer-bottom .col h5 i {
   margin-right: 10px;
 }
-/* line 531, common.less */
+/* line 532, common.less */
 footer .footer-bottom .col ul {
   margin-left: 140px;
 }
-/* line 533, common.less */
+/* line 534, common.less */
 footer .footer-bottom .col ul li {
   margin-bottom: 15px;
 }
-/* line 535, common.less */
+/* line 536, common.less */
 footer .footer-bottom .col ul li a {
   font-size: 12px;
   color: #727272;
