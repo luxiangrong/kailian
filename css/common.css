@@ -147,7 +147,7 @@ li {
   background-position: -127px -233px;
 }
 .icon-32.icon-cart.icon-cart-full {
-  background-position: -170px -233px;
+  background-position: -169px -233px;
 }
 .icon-32.icon-down {
   width: 24px;
@@ -345,6 +345,17 @@ header .col-right .cart-wrap .icon-cart {
   margin: 3px 10px;
   float: left;
 }
+header .col-right .cart-wrap .label {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 20px;
+  top: -22px;
+  background: url(../images/sprite.png) -257px 1px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
 header .col-right .cart-wrap p {
   cursor: pointer;
   display: inline-block;
@@ -364,16 +375,18 @@ header .col-right .cart-wrap p {
 header .col-right .cart-wrap .cart-dialog {
   border: 2px solid #000;
   padding: 20px;
+  padding-top: 10px;
   position: absolute;
   right: 0px;
   top: 45px;
   width: 348px;
   background-color: #fff;
+  color: #666666;
   display: none;
 }
 header .col-right .cart-wrap .cart-dialog h5 {
   margin: 0;
-  color: #666666;
+  margin-top: 10px;
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
@@ -440,6 +453,71 @@ header .col-right .cart-wrap .cart-dialog .topicon {
   width: 100%;
   height: 10px;
   background: url(../images/sprite.png) no-repeat 320px -319px;
+}
+header .col-right .cart-wrap .cart-dialog.full .btn-group {
+  background-color: #f3f3f3;
+  margin: 0 -20px -20px;
+  padding-bottom: 20px;
+  padding-top: 1px;
+}
+header .col-right .cart-wrap .cart-dialog.full .btn-group dl {
+  border-bottom: none;
+}
+header .col-right .cart-wrap .cart-dialog.full .btn-group dl dt {
+  text-align: right;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+header .col-right .cart-wrap .cart-dialog.full .btn-group dl dd .price {
+  color: #f60013;
+  font-size: 16px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+header .col-right .cart-wrap .cart-dialog.full dl {
+  border-bottom: 1px dashed #666666;
+  margin: 10px 0;
+}
+header .col-right .cart-wrap .cart-dialog.full dl:before,
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  content: " ";
+  display: table;
+}
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  clear: both;
+}
+header .col-right .cart-wrap .cart-dialog.full dl:before,
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  content: " ";
+  display: table;
+}
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  clear: both;
+}
+header .col-right .cart-wrap .cart-dialog.full dl.last {
+  border-bottom: 0px;
+}
+header .col-right .cart-wrap .cart-dialog.full dl dt {
+  float: left;
+  width: 70%;
+}
+header .col-right .cart-wrap .cart-dialog.full dl dd {
+  float: left;
+  width: 30%;
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+}
+header .col-right .cart-wrap .cart-dialog.full dl dd span.price {
+  color: #f60013;
+  font-size: 14px;
+  margin-left: 10px;
+}
+header .col-right .cart-wrap .cart-dialog.full dl dd b {
+  margin: 0 10px;
+  font-weight: normal;
 }
 header .banner {
   width: 1000px;

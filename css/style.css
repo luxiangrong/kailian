@@ -492,7 +492,7 @@ li {
 }
 /* line 108, common.less */
 .icon-32.icon-cart.icon-cart-full {
-  background-position: -170px -233px;
+  background-position: -169px -233px;
 }
 /* line 112, common.less */
 .icon-32.icon-down {
@@ -729,6 +729,18 @@ header .col-right .cart-wrap .icon-cart {
   float: left;
 }
 /* line 286, common.less */
+header .col-right .cart-wrap .label {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 20px;
+  top: -22px;
+  background: url(../images/sprite.png) -257px 1px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+/* line 297, common.less */
 header .col-right .cart-wrap p {
   cursor: pointer;
   display: inline-block;
@@ -742,37 +754,39 @@ header .col-right .cart-wrap p {
   background-color: #f9f9f9;
   border-left: 1px solid #d9d9d9;
 }
-/* line 299, common.less */
+/* line 310, common.less */
 header .col-right .cart-wrap p {
   *display: inline;
 }
-/* line 302, common.less */
+/* line 313, common.less */
 header .col-right .cart-wrap .cart-dialog {
   border: 2px solid #000;
   padding: 20px;
+  padding-top: 10px;
   position: absolute;
   right: 0px;
   top: 45px;
   width: 348px;
   background-color: #fff;
+  color: #666666;
   display: none;
 }
-/* line 311, common.less */
+/* line 324, common.less */
 header .col-right .cart-wrap .cart-dialog h5 {
   margin: 0;
-  color: #666666;
+  margin-top: 10px;
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
   padding-bottom: 15px;
   border-bottom: 1px dashed #666666;
 }
-/* line 320, common.less */
+/* line 333, common.less */
 header .col-right .cart-wrap .cart-dialog .btn-group {
   text-align: center;
   margin-top: 20px;
 }
-/* line 324, common.less */
+/* line 337, common.less */
 header .col-right .cart-wrap .cart-dialog .btn {
   color: #ffffff;
   background-color: #df0505;
@@ -825,7 +839,7 @@ header .col-right .cart-wrap .cart-dialog .btn .badge {
   color: #df0505;
   background-color: #ffffff;
 }
-/* line 331, common.less */
+/* line 344, common.less */
 header .col-right .cart-wrap .cart-dialog .topicon {
   position: absolute;
   right: 0px;
@@ -835,7 +849,86 @@ header .col-right .cart-wrap .cart-dialog .topicon {
   height: 10px;
   background: url(../images/sprite.png) no-repeat 320px -319px;
 }
-/* line 343, common.less */
+/* line 354, common.less */
+header .col-right .cart-wrap .cart-dialog.full .btn-group {
+  background-color: #f3f3f3;
+  margin: 0 -20px -20px;
+  padding-bottom: 20px;
+  padding-top: 1px;
+}
+/* line 359, common.less */
+header .col-right .cart-wrap .cart-dialog.full .btn-group dl {
+  border-bottom: none;
+}
+/* line 361, common.less */
+header .col-right .cart-wrap .cart-dialog.full .btn-group dl dt {
+  text-align: right;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+}
+/* line 369, common.less */
+header .col-right .cart-wrap .cart-dialog.full .btn-group dl dd .price {
+  color: #f60013;
+  font-size: 16px;
+  margin-left: 0px;
+  font-weight: bold;
+}
+/* line 378, common.less */
+header .col-right .cart-wrap .cart-dialog.full dl {
+  border-bottom: 1px dashed #666666;
+  margin: 10px 0;
+}
+/* line 14, mixins\clearfix.less */
+header .col-right .cart-wrap .cart-dialog.full dl:before,
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  content: " ";
+  display: table;
+}
+/* line 19, mixins\clearfix.less */
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  clear: both;
+}
+/* line 14, mixins\clearfix.less */
+header .col-right .cart-wrap .cart-dialog.full dl:before,
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  content: " ";
+  display: table;
+}
+/* line 19, mixins\clearfix.less */
+header .col-right .cart-wrap .cart-dialog.full dl:after {
+  clear: both;
+}
+/* line 382, common.less */
+header .col-right .cart-wrap .cart-dialog.full dl.last {
+  border-bottom: 0px;
+}
+/* line 385, common.less */
+header .col-right .cart-wrap .cart-dialog.full dl dt {
+  float: left;
+  width: 70%;
+}
+/* line 389, common.less */
+header .col-right .cart-wrap .cart-dialog.full dl dd {
+  float: left;
+  width: 30%;
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+}
+/* line 396, common.less */
+header .col-right .cart-wrap .cart-dialog.full dl dd span.price {
+  color: #f60013;
+  font-size: 14px;
+  margin-left: 10px;
+}
+/* line 402, common.less */
+header .col-right .cart-wrap .cart-dialog.full dl dd b {
+  margin: 0 10px;
+  font-weight: normal;
+}
+/* line 412, common.less */
 header .banner {
   width: 1000px;
   position: absolute;
@@ -844,23 +937,23 @@ header .banner {
   bottom: -504px;
   z-index: 1;
 }
-/* line 350, common.less */
+/* line 419, common.less */
 header .banner img {
   display: block;
 }
 /**
  *   footer 区域的样式
  */
-/* line 360, common.less */
+/* line 429, common.less */
 footer {
   background-color: #e0e0e0;
 }
-/* line 362, common.less */
+/* line 431, common.less */
 footer .footer-top {
   background-color: #000;
   padding: 10px 0;
 }
-/* line 365, common.less */
+/* line 434, common.less */
 footer .footer-top .col {
   position: relative;
   float: left;
@@ -869,22 +962,22 @@ footer .footer-top .col {
   padding-left: 0;
   padding-right: 0;
 }
-/* line 367, common.less */
+/* line 436, common.less */
 footer .footer-top .col.col-offset {
   margin-left: 8.33333333%;
 }
-/* line 370, common.less */
+/* line 439, common.less */
 footer .footer-top .col .bg-wrap {
   margin: 5px;
   background-color: #fff;
   height: 100px;
 }
-/* line 375, common.less */
+/* line 444, common.less */
 footer .footer-top .col .bg-wrap.qr img {
   float: left;
   margin: 10px 30px;
 }
-/* line 379, common.less */
+/* line 448, common.less */
 footer .footer-top .col .bg-wrap.qr p {
   font-size: 12px;
   color: #303030;
@@ -892,16 +985,16 @@ footer .footer-top .col .bg-wrap.qr p {
   padding: 30px 30px 0px 0;
   line-height: 1.42857143;
 }
-/* line 387, common.less */
+/* line 456, common.less */
 footer .footer-top .col .bg-wrap.weibo {
   line-height: 100px;
 }
-/* line 389, common.less */
+/* line 458, common.less */
 footer .footer-top .col .bg-wrap.weibo img {
   float: left;
   margin: 30px;
 }
-/* line 393, common.less */
+/* line 462, common.less */
 footer .footer-top .col .bg-wrap.weibo .btn {
   color: #303030;
   background-color: #f9f9f9;
@@ -953,20 +1046,20 @@ footer .footer-top .col .bg-wrap.weibo .btn .badge {
   color: #f9f9f9;
   background-color: #303030;
 }
-/* line 401, common.less */
+/* line 470, common.less */
 footer .footer-top .col .bg-wrap.app span {
   float: left;
   margin: 40px 0;
   margin-left: 10%;
   width: 35%;
 }
-/* line 407, common.less */
+/* line 476, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group {
   float: left;
   width: 45%;
   height: 100%;
 }
-/* line 411, common.less */
+/* line 480, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn {
   cursor: pointer;
   margin-top: 10px;
@@ -1022,25 +1115,25 @@ footer .footer-top .col .bg-wrap.app .btn-group .btn .badge {
   color: #f9f9f9;
   background-color: #303030;
 }
-/* line 420, common.less */
+/* line 489, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn.btn-ios {
   border-color: #26aff6;
 }
-/* line 423, common.less */
+/* line 492, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn.btn-android {
   border-color: #fd8816;
 }
-/* line 426, common.less */
+/* line 495, common.less */
 footer .footer-top .col .bg-wrap.app .btn-group .btn img {
   vertical-align: middle;
   height: 25px;
   margin-right: 5px;
 }
-/* line 437, common.less */
+/* line 506, common.less */
 footer .footer-bottom {
   padding-bottom: 30px;
 }
-/* line 439, common.less */
+/* line 508, common.less */
 footer .footer-bottom .col {
   position: relative;
   float: left;
@@ -1052,37 +1145,37 @@ footer .footer-bottom .col {
   border-right: 1px dashed #959595;
   margin-top: 30px;
 }
-/* line 444, common.less */
+/* line 513, common.less */
 footer .footer-bottom .col.first {
   border-left: 0px dashed #fff;
 }
-/* line 447, common.less */
+/* line 516, common.less */
 footer .footer-bottom .col.last {
   border-right: 0px dashed #fff;
 }
-/* line 450, common.less */
+/* line 519, common.less */
 footer .footer-bottom .col.col-offset {
   margin-left: 8.33333333%;
 }
-/* line 453, common.less */
+/* line 522, common.less */
 footer .footer-bottom .col h5 {
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
   margin: 0 0 10px 100px;
 }
-/* line 457, common.less */
+/* line 526, common.less */
 footer .footer-bottom .col h5 i {
   margin-right: 10px;
 }
-/* line 461, common.less */
+/* line 530, common.less */
 footer .footer-bottom .col ul {
   margin-left: 140px;
 }
-/* line 463, common.less */
+/* line 532, common.less */
 footer .footer-bottom .col ul li {
   margin-bottom: 15px;
 }
-/* line 465, common.less */
+/* line 534, common.less */
 footer .footer-bottom .col ul li a {
   font-size: 12px;
   color: #727272;
