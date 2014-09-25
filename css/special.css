@@ -75,12 +75,14 @@
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-size: 18px;
   font-weight: bold;
+  vertical-align: 1px;
 }
 .special .main .products-wrap .container .col .product .info p strong.price {
   font-size: 38px;
   font-weight: bold;
   color: #fe0000;
   margin-left: 10px;
+  vertical-align: -2px;
 }
 .special .main .products-wrap .container .col .product .info p small.unit,
 .special .main .products-wrap .container .col .product .info p small.description {
