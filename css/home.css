@@ -10,19 +10,19 @@ body.home {
   background: #f9f9f9;
 }
 body.home .main {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   position: relative;
 }
 body.home .banner-slider-wrap {
   position: absolute;
   left: 50%;
   margin-left: -600px;
-  bottom: -451px;
+  bottom: -452px;
   *bottom: -457px;
   z-index: -1;
 }
 body.home .banner-holder {
-  height: 430px;
+  height: 448px;
 }
 body.home .bx-wrapper {
   margin-bottom: 6px;
@@ -46,6 +46,8 @@ body.home .bx-wrapper .bx-viewport .bxslider li {
   height: 100% !important;
 }
 body.home .bx-wrapper .bx-viewport .bxslider li a {
+  position: absolute;
+  bottom: 0;
   display: block;
 }
 body.home #bx-pager {
@@ -105,7 +107,7 @@ body.home .container .col-main {
   padding-right: 0;
 }
 body.home .container .col-main.hot-lessons {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 body.home .container .col-main.hot-lessons .row {
   margin-right: -15px;
@@ -117,10 +119,11 @@ body.home .container .col-main.hot-lessons .col-main-wrap {
   border-top: 2px solid #000;
 }
 body.home .container .col-main.hot-lessons .col-main-wrap h1 {
-  margin-top: -26px;
+  margin-top: -21px;
   margin-bottom: 10px;
   text-align: center;
   border-bottom: 1px solid #000;
+  height: 60px;
 }
 body.home .container .col-main.hot-lessons .hot-lesson .hot-lesson-wrap {
   border: 1px solid #f9f9f9;
@@ -137,21 +140,23 @@ body.home .container .col-main.hot-lessons .hot-lesson img {
 body.home .container .col-main.hot-lessons .hot-lesson h2 {
   font-size: 18px;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
-  margin: 10px 0;
-  padding-left: 10px;
+  margin: 8px 0 5px;
+  padding-left: 14px;
 }
 body.home .container .col-main.hot-lessons .hot-lesson p {
   font-size: 12px;
   color: #818181;
-  margin-top: 5px;
-  padding-left: 10px;
-  margin-bottom: 15px;
+  margin-top: 0px;
+  padding-left: 14px;
+  margin-bottom: 20px;
 }
 body.home .container .col-main.hot-lessons .page-more {
   clear: both;
+  position: relative;
+  top: -10px;
   border-top: 1px solid #cccccc;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   height: 35px;
 }
 body.home .container .col-main.hot-lessons .page-more .more {
@@ -193,7 +198,7 @@ body.home .container .col-side {
   min-height: 1px;
   padding-left: 0;
   padding-right: 0;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 body.home .container .col-side .col-side-wrap {
   margin-left: 5px;
@@ -203,9 +208,24 @@ body.home .container .col-side .hot-groups {
   background-color: #ebebeb;
 }
 body.home .container .col-side .hot-groups h3 {
-  margin-top: 0;
+  margin: 0;
+}
+body.home .container .col-side .hot-groups h3 img {
+  display: block;
+}
+body.home .container .col-side .hot-groups ul li {
+  margin-top: 24px;
+}
+body.home .container .col-side .hot-groups ul li a {
+  display: block;
+  margin: 0 auto;
+}
+body.home .container .col-side .hot-groups ul li a img {
+  display: block;
+  margin: 0 auto;
 }
 body.home .container .col-side .hot-groups ul li h4 {
+  margin: 14px 0 0;
   font-size: 16px;
   font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
 }
@@ -213,7 +233,6 @@ body.home .container .col-side .create-group {
   width: 195px;
   height: 98px;
   background: url(../images/sprite.png) no-repeat -95px -44px;
-  margin-top: -21px;
   text-align: center;
 }
 body.home .container .col-side .create-group strong {
@@ -233,11 +252,14 @@ body.home .container .col-side .create-group a {
 body.home .container .col-side .recommend-tops {
   background: #efefef url(../images/bg_recommend_topics.png) no-repeat center bottom;
   padding-bottom: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 body.home .container .col-side .recommend-tops h3 {
-  margin-bottom: 0;
+  margin: 0;
+}
+body.home .container .col-side .recommend-tops h3 img {
+  display: block;
 }
 body.home .container .col-side .recommend-tops ul {
   padding: 0 10px;
@@ -246,25 +268,25 @@ body.home .container .col-side .recommend-tops ul li {
   padding-left: 30px;
   font-size: 12px;
   color: #666666;
-  padding-top: 25px;
+  padding-top: 22px;
   line-height: 20px;
 }
 body.home .container .col-side .recommend-tops ul li.star {
-  background: url(../images/bg_star.png) no-repeat left 0px;
+  background: url(../images/bg_star.png) no-repeat left -3px;
 }
 body.home .container .col-side .recommend-tops ul li.dot {
-  background: url(../images/bg_dot.png) no-repeat left 0px;
+  background: url(../images/bg_dot.png) no-repeat left -3px;
 }
 body.home .container .col-side .recommend-tops ul li.last {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 body.home .container .col-side .recommend-tops ul li.first {
-  padding-top: 20px;
-  background-position: left -5px;
+  padding-top: 16px;
+  background-position: left -8px;
 }
 body.home .container .col-side .recommend-tops p {
   text-align: center;
-  margin: -10px 0 0px;
+  margin: -20px 0 0px;
 }
 body.home .container .col-side .recommend-tops p a {
   color: #4c72e0;
@@ -293,6 +315,9 @@ body.home .container .col-side .experience h3 {
   margin-bottom: 0;
   margin-top: 0px;
 }
+body.home .container .col-side .experience h3 img {
+  display: block;
+}
 body.home .container .col-side .experience ul:before,
 body.home .container .col-side .experience ul:after {
   content: " ";
@@ -302,8 +327,8 @@ body.home .container .col-side .experience ul:after {
   clear: both;
 }
 body.home .container .col-side .experience ul li {
-  background: url(../images/bg_line.png) repeat-y 23px center;
-  padding-top: 10px;
+  background: url(../images/bg_line.png) repeat-y 26px center;
+  padding-top: 18px;
 }
 body.home .container .col-side .experience ul li:before,
 body.home .container .col-side .experience ul li:after {
@@ -316,7 +341,7 @@ body.home .container .col-side .experience ul li:after {
 body.home .container .col-side .experience ul li .avator {
   float: left;
   width: 15%;
-  margin-left: 5%;
+  margin-left: 12px;
   margin-right: 2.5%;
   text-align: center;
   height: 100%;
@@ -332,20 +357,23 @@ body.home .container .col-side .experience ul li .text-info h5 {
   font-weight: bold;
   color: #303030;
   margin: 5px;
+  margin-bottom: 8px;
 }
 body.home .container .col-side .experience ul li .text-info p {
   font-size: 12px;
   color: #5e5e5e;
   margin: 5px;
+  margin-bottom: 11px;
 }
 body.home .container .col-side .experience ul li .text-info .date {
   font-size: 12px;
   color: #919191;
   margin: 5px;
   text-align: right;
+  margin-bottom: 0px;
 }
 body.home .container .col-side .experience .more {
-  margin-top: 10px;
+  margin-top: 14px;
   margin-right: 10px;
   text-align: right;
 }
