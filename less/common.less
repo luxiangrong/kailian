@@ -167,15 +167,18 @@ header {
   background-color: #fff;
   z-index: 100;
   .head-wrap {
-    padding: 25px 0;
+    padding: 25px 0 20px;
     z-index: 2;
     position: relative;
   }
   .col-logo {
     .make-xs-column(3, 0);
+    margin-top: 13px;
   }
   .col-search {
     .make-xs-column(5, 0);
+    width: 517px;
+    margin-top: 3px;
     .col-search-wrap {
       margin-left: 13px;
       *margin-left: 20px;
@@ -227,7 +230,8 @@ header {
         padding-left: 10px;
         height: 24px;
         line-height: 24px;
-        width: 376px;
+        width: 402px;
+        *width: 395px;
         border: 0;
         outline: 0;
         color: #989898;
@@ -266,7 +270,11 @@ header {
   }
   .col-right {
     .make-xs-column(4, 0);
-    padding-top: 35px;
+    width: 383px;
+    margin-top: 28px;
+    .clearfix();
+    height: 40px;
+    line-height: 40px;
     .map-search {
       margin-left: 20px;
       vertical-align: middle;
@@ -275,7 +283,6 @@ header {
     }
     .cart-wrap {
       position: relative;
-      margin-top: -15px;
       border: 1px solid #d9d9d9;
       width: 193px;
       height: 38px;

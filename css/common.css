@@ -201,7 +201,7 @@ header {
   z-index: 100;
 }
 header .head-wrap {
-  padding: 25px 0;
+  padding: 25px 0 20px;
   z-index: 2;
   position: relative;
 }
@@ -212,6 +212,7 @@ header .col-logo {
   min-height: 1px;
   padding-left: 0;
   padding-right: 0;
+  margin-top: 13px;
 }
 header .col-search {
   position: relative;
@@ -220,6 +221,8 @@ header .col-search {
   min-height: 1px;
   padding-left: 0;
   padding-right: 0;
+  width: 517px;
+  margin-top: 3px;
 }
 header .col-search .col-search-wrap {
   margin-left: 13px;
@@ -284,7 +287,8 @@ header .col-search .search-box input.search-input-text {
   padding-left: 10px;
   height: 24px;
   line-height: 24px;
-  width: 376px;
+  width: 402px;
+  *width: 395px;
   border: 0;
   outline: 0;
   color: #989898;
@@ -326,7 +330,26 @@ header .col-right {
   min-height: 1px;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 35px;
+  width: 383px;
+  margin-top: 28px;
+  height: 40px;
+  line-height: 40px;
+}
+header .col-right:before,
+header .col-right:after {
+  content: " ";
+  display: table;
+}
+header .col-right:after {
+  clear: both;
+}
+header .col-right:before,
+header .col-right:after {
+  content: " ";
+  display: table;
+}
+header .col-right:after {
+  clear: both;
 }
 header .col-right .map-search {
   margin-left: 20px;
@@ -336,7 +359,6 @@ header .col-right .map-search {
 }
 header .col-right .cart-wrap {
   position: relative;
-  margin-top: -15px;
   border: 1px solid #d9d9d9;
   width: 193px;
   height: 38px;
