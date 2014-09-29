@@ -223,6 +223,7 @@ header .col-search {
 }
 header .col-search .col-search-wrap {
   margin-left: 13px;
+  *margin-left: 20px;
 }
 header .col-search .search-tab ul:before,
 header .col-search .search-tab ul:after {

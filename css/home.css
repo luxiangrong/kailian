@@ -18,7 +18,7 @@ body.home .banner-slider-wrap {
   left: 50%;
   margin-left: -600px;
   bottom: -452px;
-  *bottom: -457px;
+  *bottom: -458px;
   z-index: -1;
 }
 body.home .banner-holder {
@@ -124,6 +124,9 @@ body.home .container .col-main.hot-lessons .col-main-wrap h1 {
   text-align: center;
   border-bottom: 1px solid #000;
   height: 60px;
+  *position: relative;
+  *top: -21px;
+  *margin-bottom: -11px;
 }
 body.home .container .col-main.hot-lessons .hot-lesson .hot-lesson-wrap {
   border: 1px solid #f9f9f9;
