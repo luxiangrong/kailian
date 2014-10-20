@@ -164,6 +164,11 @@ body.home .container .col-main.hot-lessons .hot-lesson p {
   padding-left: 22px;
   margin-bottom: 20px;
 }
+body.home .container .col-main.hot-lessons .hot-lesson p .split {
+  margin: 0 5px;
+  font-size: 13px;
+  vertical-align: top;
+}
 body.home .container .col-main.hot-lessons .page-more {
   clear: both;
   position: relative;
