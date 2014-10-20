@@ -163,11 +163,12 @@ body.home .container .col-main.hot-lessons .hot-lesson p {
   margin-top: 10px;
   padding-left: 22px;
   margin-bottom: 20px;
+  line-height: 20px;
 }
-body.home .container .col-main.hot-lessons .hot-lesson p .split {
-  margin: 0 5px;
-  font-size: 13px;
-  vertical-align: top;
+body.home .container .col-main.hot-lessons .hot-lesson p .icon-split {
+  background-position: -32px -116px;
+  vertical-align: text-top;
+  margin-right: 2px;
 }
 body.home .container .col-main.hot-lessons .page-more {
   clear: both;
