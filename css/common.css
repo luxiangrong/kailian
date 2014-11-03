@@ -502,6 +502,7 @@ header .col-right .cart-wrap .cart-dialog.full .btn-group dl dd .price {
   font-weight: bold;
 }
 header .col-right .cart-wrap .cart-dialog.full dl {
+  zoom: 1;
   border-bottom: 1px dashed #666666;
   margin: 10px 0;
 }

@@ -373,7 +373,6 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   margin: 0px 50px 20px;
 }
 .special.special-2 .container.shops ul li {
-  *zoom: 1;
   background-color: #fff;
   margin-bottom: 20px;
 }
@@ -468,7 +467,6 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   margin: 0px 40px 20px;
 }
 .special.special-3 .container.shops ul li {
-  *zoom: 1;
   margin-bottom: 40px;
   border: 1px dashed #ff7b86;
   padding: 10px;
@@ -484,7 +482,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 .special.special-3 .container.shops ul li dl {
   margin: 0;
   padding: 0;
-  *zoom: 1;
+  zoom: 1;
   background: #ffffff url(../images/shop_bg_01_353x361.png) no-repeat 535px center;
 }
 .special.special-3 .container.shops ul li dl:before,
