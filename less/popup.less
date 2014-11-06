@@ -45,7 +45,7 @@
 
 .popup_back {
   cursor: pointer;
-  background-color: #222;
+  background-color: #100201;
 }
 
 div.popup {
@@ -72,7 +72,7 @@ div.popup {
 .popup-content-center {
   background: url(../images/popup_bg_826x1242.png) repeat-y top center;
   width: 826px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 20px;
   h1 {
     margin-top: 100px;
@@ -80,7 +80,7 @@ div.popup {
   }
   dl {
     font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
-    padding: 10px 45px;
+    padding: 10px 70px;
     dt {
       font-size: 20px;
       font-weight: bold;
@@ -94,18 +94,40 @@ div.popup {
       padding-left: 24px;
       margin: 0px 6px;
       line-height: 40px;
+      &.form-group {
+        background-image: none;
+        margin-left: 100px;
+        margin-top: 30px;
+        .required {
+          color: #ff0002;
+          margin-right: 5px;
+        }
+        label {
+          font-size: 16px;
+        }
+        input {
+          height: 36px;
+          width: 300px;
+        }
+      }
+      &.split {
+        background-image: none;
+        border-bottom: 1px dashed #b5b5b5;
+        margin-bottom: 10px;
+      }
       p {
         &.note {
           margin-top: -10px;
           font-size: 14px;
           color: #ff0000;
-          text-align: center;
+          text-align: left;
         }
       }
     }
   }
   .btn-group {
     text-align: center;
+    margin-bottom: 50px;
   }
   .btn {
     font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
@@ -118,4 +140,43 @@ div.popup {
   background: url(../images/popup_bg_2.png) no-repeat top center;
   width: 800px;
   height: 703px;
+  .content {
+    padding: 200px 245px;
+    .pic-success {
+      margin-left: 40px;
+    }
+    h1 {
+      margin: 0;
+      color: #ff0000;
+      font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      position: relative;
+      i {
+        position: absolute;
+        display: block;
+        font-size: 80px;
+        font-style: normal;
+        right: -10px;
+        top: -18px;
+      }
+    }
+    p {
+      font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+      font-size: 14px;
+      color: #323232;
+      margin: 0px;
+      margin-bottom: 20px;
+    }
+    .more {
+      text-align: right;
+    }
+    a {
+      font-size: 12px;
+      color: #666666;
+      border: 1px solid #f39f9f;
+      padding: 5px;
+      text-decoration: none;
+    }
+  }
 }

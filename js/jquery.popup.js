@@ -60,7 +60,7 @@
 
 				// Markup
 				backClass : 'popup_back',
-				backOpacity : 0.7,
+				backOpacity : 0.86,
 				containerClass : 'popup_cont',
 				closeContent : '<div class="popup_close">&times;</div>',
 				markup : '<div class="popup"><div class="popup_content"/></div>',
@@ -662,7 +662,7 @@
 				wH = document.documentElement.clientHeight;
 
 			return {
-				top : wH  - pH * 0.5 + $(document).scrollTop(),
+				top :  $(document).scrollTop(),
 				left : wW * 0.5 - pW * 0.5
 			};
 
