@@ -72,7 +72,7 @@
   margin: 5px 0;
 }
 .special .main .products-wrap .container .col .product .info p .name {
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-size: 18px;
   font-weight: bold;
   vertical-align: 1px;
@@ -90,7 +90,7 @@
   color: #666;
 }
 .special .main .products-wrap .container .col .product .info p b.name-extr {
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-size: 14px;
   margin-right: 10px;
 }
@@ -103,7 +103,7 @@
   line-height: 18px;
   border-radius: 0px;
   text-decoration: none;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   display: block;
   text-align: center;
   font-weight: bold;
@@ -186,7 +186,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 .special .other .editor-words .book .paper h1 {
   color: #3381dd;
   font-size: 20px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
@@ -271,17 +271,17 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 .special .other .recommend-lessons .container .lesson a .lesson-detail span.price {
   color: #ffe931;
   font-size: 28px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
 }
 .special .other .recommend-lessons .container .lesson a .lesson-detail span.unit {
   font-size: 14px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
 }
 .special .other .recommend-lessons .container .lesson a .lesson-detail span.name {
   font-size: 18px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   display: block;
   font-weight: bold;
 }
@@ -348,7 +348,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 .special.special-2 .container.shops h1 {
   margin-top: 40px;
   font-size: 24px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -435,19 +435,22 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 .special.special-3 .container.shops {
   position: relative;
   width: 1000px;
-  margin-top: -158px;
+  margin-top: -165px;
   margin-bottom: 20px;
 }
 .special.special-3 .container.shops h1 {
   margin-top: 40px;
+  margin-bottom: 18px;
   font-size: 28px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
   color: #000;
   text-align: center;
 }
 .special.special-3 .container.shops h2 {
   text-align: center;
+  margin-top: 18px;
+  margin-bottom: 16px;
 }
 .special.special-3 .container.shops h2 img {
   display: block;
@@ -455,11 +458,11 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 }
 .special.special-3 .container.shops h3 {
   margin-top: 0px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 .special.special-3 .container.shops p {
   font-size: 12px;
-  line-height: 20px;
+  line-height: 35px;
   margin: 5px 0;
   text-align: center;
 }
@@ -480,6 +483,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   clear: both;
 }
 .special.special-3 .container.shops ul li dl {
+  position: relative;
   margin: 0;
   padding: 0;
   zoom: 1;
@@ -502,7 +506,6 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   display: block;
 }
 .special.special-3 .container.shops ul li dl dd {
-  position: relative;
   margin: 0;
   float: left;
   width: 328px;
@@ -511,7 +514,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 }
 .special.special-3 .container.shops ul li dl dd h4 {
   font-size: 24px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   font-weight: bold;
   color: #ff4858;
   text-align: center;
@@ -519,7 +522,7 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
 }
 .special.special-3 .container.shops ul li dl dd p {
   font-size: 14px;
-  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
   padding: 10px 10px;
   color: #303030;
   line-height: 1.8em;
@@ -533,4 +536,57 @@ fieldset[disabled] .special .main .products-wrap .container .col .product .info 
   position: absolute;
   right: 30px;
   bottom: 0px;
+}
+.special.special-3 .container.shops ul li dl dd .btn {
+  color: #ffffff;
+  background-color: #fe857d;
+  border-color: #fe857d;
+  padding: 4px 34px;
+  font-size: 24px;
+  line-height: 30px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  right: 40px;
+  bottom: 56px;
+}
+.special.special-3 .container.shops ul li dl dd .btn:hover,
+.special.special-3 .container.shops ul li dl dd .btn:focus,
+.special.special-3 .container.shops ul li dl dd .btn:active,
+.special.special-3 .container.shops ul li dl dd .btn.active,
+.open > .dropdown-toggle.special.special-3 .container.shops ul li dl dd .btn {
+  color: #ffffff;
+  background-color: #fe564a;
+  border-color: #fe4c40;
+}
+.special.special-3 .container.shops ul li dl dd .btn:active,
+.special.special-3 .container.shops ul li dl dd .btn.active,
+.open > .dropdown-toggle.special.special-3 .container.shops ul li dl dd .btn {
+  background-image: none;
+}
+.special.special-3 .container.shops ul li dl dd .btn.disabled,
+.special.special-3 .container.shops ul li dl dd .btn[disabled],
+fieldset[disabled] .special.special-3 .container.shops ul li dl dd .btn,
+.special.special-3 .container.shops ul li dl dd .btn.disabled:hover,
+.special.special-3 .container.shops ul li dl dd .btn[disabled]:hover,
+fieldset[disabled] .special.special-3 .container.shops ul li dl dd .btn:hover,
+.special.special-3 .container.shops ul li dl dd .btn.disabled:focus,
+.special.special-3 .container.shops ul li dl dd .btn[disabled]:focus,
+fieldset[disabled] .special.special-3 .container.shops ul li dl dd .btn:focus,
+.special.special-3 .container.shops ul li dl dd .btn.disabled:active,
+.special.special-3 .container.shops ul li dl dd .btn[disabled]:active,
+fieldset[disabled] .special.special-3 .container.shops ul li dl dd .btn:active,
+.special.special-3 .container.shops ul li dl dd .btn.disabled.active,
+.special.special-3 .container.shops ul li dl dd .btn[disabled].active,
+fieldset[disabled] .special.special-3 .container.shops ul li dl dd .btn.active {
+  background-color: #fe857d;
+  border-color: #fe857d;
+}
+.special.special-3 .container.shops ul li dl dd .btn .badge {
+  color: #fe857d;
+  background-color: #ffffff;
 }
