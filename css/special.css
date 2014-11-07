@@ -590,3 +590,167 @@ fieldset[disabled] .special.special-3 .container.shops ul li dl dd .btn.active {
   color: #fe857d;
   background-color: #ffffff;
 }
+.special.special-4 .main {
+  background-image: none;
+}
+.special.special-4 .main .banner {
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+  height: 499px;
+}
+.special.special-4 .main .banner img {
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+}
+.special.special-4 .main .products-wrap {
+  position: relative;
+  background-color: #f7f3e8;
+  margin-bottom: 0px;
+  padding-top: 120px;
+}
+.special.special-4 .main .products-wrap h1.title {
+  position: absolute;
+  font-family: "Microsoft YaHei", "微软雅黑", "Hiragino Sans GB", SimSun, "宋体", sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: #fff;
+  top: 0px;
+  left: 0px;
+  background: url(../images/title_01_1920x224.png) no-repeat center top;
+  height: 224px;
+  line-height: 85px;
+  width: 100%;
+  margin: 0;
+}
+.special.special-4 .main .products-wrap h1.title .title-wrap {
+  width: 1000px;
+  padding-left: 70px;
+  margin: 0 auto;
+}
+.special.special-4 .main .products-wrap .container {
+  width: 1203px;
+}
+.special.special-4 .main .products-wrap .product {
+  margin-bottom: 30px !important;
+}
+.special.special-4 .main .products-wrap dl {
+  margin: 0px;
+  margin-top: 10px;
+}
+.special.special-4 .main .products-wrap dl.intro dt {
+  font-family: "Microsoft YaHei", "微软雅黑", "Hiragino Sans GB", SimSun, "宋体", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+.special.special-4 .main .products-wrap dl.intro dd {
+  font-size: 12px;
+  margin: 0;
+  margin-top: 5px;
+  line-height: 1.6em;
+}
+.special.special-4 .main .products-wrap dl.intro dd i {
+  color: #ff4e36;
+  font-weight: bold;
+  font-size: 16px;
+}
+.special.special-4 .main .products-wrap dl.intro dd i.start {
+  margin-right: 5px;
+}
+.special.special-4 .main .products-wrap dl.intro dd i.end {
+  margin-left: 5px;
+}
+.special.special-4 .main .products-wrap dl.address dt {
+  font-family: "Microsoft YaHei", "微软雅黑", "Hiragino Sans GB", SimSun, "宋体", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+.special.special-4 .main .products-wrap dl.address dd {
+  font-size: 12px;
+  margin: 0;
+  margin-top: 5px;
+  color: #666666;
+}
+.special.special-4 .main .products-wrap dl.address dd .icon-location {
+  height: 20px;
+  width: 16px;
+  background-position: -298px -7px;
+}
+.special.special-4 .main .products-wrap .btn {
+  color: #ffffff;
+  background-color: #df0505;
+  border-color: #df0505;
+  text-decoration: none;
+  font-family: "Microsoft YaHei", "微软雅黑", "Hiragino Sans GB", SimSun, "宋体", sans-serif;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+.special.special-4 .main .products-wrap .btn:hover,
+.special.special-4 .main .products-wrap .btn:focus,
+.special.special-4 .main .products-wrap .btn:active,
+.special.special-4 .main .products-wrap .btn.active,
+.open > .dropdown-toggle.special.special-4 .main .products-wrap .btn {
+  color: #ffffff;
+  background-color: #ad0404;
+  border-color: #a30404;
+}
+.special.special-4 .main .products-wrap .btn:active,
+.special.special-4 .main .products-wrap .btn.active,
+.open > .dropdown-toggle.special.special-4 .main .products-wrap .btn {
+  background-image: none;
+}
+.special.special-4 .main .products-wrap .btn.disabled,
+.special.special-4 .main .products-wrap .btn[disabled],
+fieldset[disabled] .special.special-4 .main .products-wrap .btn,
+.special.special-4 .main .products-wrap .btn.disabled:hover,
+.special.special-4 .main .products-wrap .btn[disabled]:hover,
+fieldset[disabled] .special.special-4 .main .products-wrap .btn:hover,
+.special.special-4 .main .products-wrap .btn.disabled:focus,
+.special.special-4 .main .products-wrap .btn[disabled]:focus,
+fieldset[disabled] .special.special-4 .main .products-wrap .btn:focus,
+.special.special-4 .main .products-wrap .btn.disabled:active,
+.special.special-4 .main .products-wrap .btn[disabled]:active,
+fieldset[disabled] .special.special-4 .main .products-wrap .btn:active,
+.special.special-4 .main .products-wrap .btn.disabled.active,
+.special.special-4 .main .products-wrap .btn[disabled].active,
+fieldset[disabled] .special.special-4 .main .products-wrap .btn.active {
+  background-color: #df0505;
+  border-color: #df0505;
+}
+.special.special-4 .main .products-wrap .btn .badge {
+  color: #df0505;
+  background-color: #ffffff;
+}
+.special.special-4 .main .products-wrap .btn.btn-heart {
+  margin-top: 15px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  border-radius: 0px !important;
+}
+.special.special-4 .main .products-wrap .btn.btn-heart .icon-wheart {
+  height: 24px;
+  background-position: -320px -6px;
+}
+.special.special-4 .main .products-wrap.products-wrap-a {
+  background-color: #f7f3e8;
+}
+.special.special-4 .main .products-wrap.products-wrap-a h1.title {
+  background-image: url(../images/title_01_1920x224.png);
+}
+.special.special-4 .main .products-wrap.products-wrap-b {
+  background-color: #686868;
+}
+.special.special-4 .main .products-wrap.products-wrap-b h1.title {
+  background-image: url(../images/title_02_1920x224.png);
+}
+.special.special-4 .main .products-wrap.products-wrap-c {
+  background-color: #E7F2ED;
+}
+.special.special-4 .main .products-wrap.products-wrap-c h1.title {
+  background-image: url(../images/title_03_1920x224.png);
+}
