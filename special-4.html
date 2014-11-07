@@ -8,6 +8,7 @@
 		<!-- Bootstrap -->
 		<link href="css/owl.carousel.css" rel="stylesheet" />
 		<link href="css/owl.theme.css" rel="stylesheet" />
+		<link href="css/popup.css" rel="stylesheet" />
 		<link href="css/style.css" rel="stylesheet" />
 
 		<!-- 让IE6-8支持html5元素-->
@@ -125,7 +126,7 @@
 										<dt>[五轮剑道馆燕莎分馆]</dt>
 										<dd><i class="icon-32 icon-location"></i>北京朝阳区燕莎桥东麦子店街39号</dd>
 									</dl>
-									<a class="btn btn-heart" href="#"><i class="icon-32 icon-wheart"></i>深入了解TA。。。</a>
+									<a class="btn btn-heart popup" href="http://192.168.0.102:8020/kailian/popup-content.html"><i class="icon-32 icon-wheart"></i>深入了解TA。。。</a>
 								</div>
 							</div>
 						</div>
@@ -548,6 +549,10 @@
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/jquery.bxslider.min.js"></script>
+		<script src="js/jquery.popup.js"></script>
 		<script src="js/function.js"></script>
+		<script>
+			$(".popup").popup({type:'ajax'});
+		</script>
 	</body>
 </html>
